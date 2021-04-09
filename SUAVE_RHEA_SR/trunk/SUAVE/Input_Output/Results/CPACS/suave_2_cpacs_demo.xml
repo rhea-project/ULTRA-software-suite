@@ -1,0 +1,2433 @@
+<?xml version="1.0" ?><cpacs>	
+	<header>		
+		<name>genericSystem example file</name>		
+		<description>Example file for use of genericSystem components</description>		
+		<creator>Jonas Jepsen from TU-Hamburg-Harburg</creator>		
+		<timestamp>2017-05-31T08:55:23</timestamp>		
+		<version>1.0</version>		
+		<cpacsVersion>3.0</cpacsVersion>		
+	</header>	
+	<vehicles>		
+		<aircraft>			
+			<model uID="Aircraft">				
+				<name>genericSystem example</name>				
+				<description>Container to show use of genericSystem nodes</description>				
+				<wings>					
+					<wing symmetry="x-z-plane" uID="Aircraft_main_wing">						
+						<name>Aircraft_main_wing</name>						
+						<description>Aircraft_main_wing</description>						
+						<transformation uID="Aircraft_main_wing_Transf">							
+							<scaling uID="Aircraft_main_wing_Transf_Sca">								
+								<x>1.0</x>								
+								<y>1.0</y>								
+								<z>1.0</z>								
+							</scaling>							
+							<rotation uID="Aircraft_main_wing_Transf_Rot">								
+								<x>0.0</x>								
+								<y>0.0</y>								
+								<z>0.0</z>								
+							</rotation>							
+							<translation uID="Aircraft_main_wing_Transf_Tra">								
+								<x>12.762</x>								
+								<y>0</y>								
+								<z>-1.09</z>								
+							</translation>							
+						</transformation>						
+						<sections>							
+							<section uID="Aircraft_main_wing_section_1">								
+								<name>Aircraft_main_wing_section_1</name>								
+								<description>Aircraft_main_wing_section_1</description>								
+								<transformation uID="Aircraft_main_wing_section_1_Transf">									
+									<scaling uID="Aircraft_main_wing_section_1_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_main_wing_section_1_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_main_wing_section_1_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_main_wing_section_1_element">										
+										<name>Aircraft_main_wing_section_1_element</name>										
+										<description>Aircraft_main_wing_section_1_element</description>										
+										<airfoilUID>HighLift</airfoilUID>										
+										<transformation uID="Aircraft_main_wing_section_1_element_Transf">											
+											<scaling uID="Aircraft_main_wing_section_1_element_Transf_Sca">												
+												<x>6.011897704</x>												
+												<y>6.011897704</y>												
+												<z>6.011897704</z>												
+											</scaling>											
+											<rotation uID="Aircraft_main_wing_section_1_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_main_wing_section_1_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+							<section uID="Aircraft_main_wing_section_2">								
+								<name>Aircraft_main_wing_section_2</name>								
+								<description>Aircraft_main_wing_section_2</description>								
+								<transformation uID="Aircraft_main_wing_section_2_Transf">									
+									<scaling uID="Aircraft_main_wing_section_2_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_main_wing_section_2_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_main_wing_section_2_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_main_wing_section_2_element">										
+										<name>Aircraft_main_wing_section_2_element</name>										
+										<description>Aircraft_main_wing_section_2_element</description>										
+										<airfoilUID>HighLift</airfoilUID>										
+										<transformation uID="Aircraft_main_wing_section_2_element_Transf">											
+											<scaling uID="Aircraft_main_wing_section_2_element_Transf_Sca">												
+												<x>6.011897704</x>												
+												<y>6.011897704</y>												
+												<z>6.011897704</z>												
+											</scaling>											
+											<rotation uID="Aircraft_main_wing_section_2_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_main_wing_section_2_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+							<section uID="Aircraft_main_wing_section_3">								
+								<name>Aircraft_main_wing_section_3</name>								
+								<description>Aircraft_main_wing_section_3</description>								
+								<transformation uID="Aircraft_main_wing_section_3_Transf">									
+									<scaling uID="Aircraft_main_wing_section_3_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_main_wing_section_3_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_main_wing_section_3_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_main_wing_section_3_element">										
+										<name>Aircraft_main_wing_section_3_element</name>										
+										<description>Aircraft_main_wing_section_3_element</description>										
+										<airfoilUID>HighLift</airfoilUID>										
+										<transformation uID="Aircraft_main_wing_section_3_element_Transf">											
+											<scaling uID="Aircraft_main_wing_section_3_element_Transf_Sca">												
+												<x>3.745412269592</x>												
+												<y>3.745412269592</y>												
+												<z>3.745412269592</z>												
+											</scaling>											
+											<rotation uID="Aircraft_main_wing_section_3_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_main_wing_section_3_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+							<section uID="Aircraft_main_wing_section_4">								
+								<name>Aircraft_main_wing_section_4</name>								
+								<description>Aircraft_main_wing_section_4</description>								
+								<transformation uID="Aircraft_main_wing_section_4_Transf">									
+									<scaling uID="Aircraft_main_wing_section_4_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_main_wing_section_4_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_main_wing_section_4_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_main_wing_section_4_element">										
+										<name>Aircraft_main_wing_section_4_element</name>										
+										<description>Aircraft_main_wing_section_4_element</description>										
+										<airfoilUID>HighLift</airfoilUID>										
+										<transformation uID="Aircraft_main_wing_section_4_element_Transf">											
+											<scaling uID="Aircraft_main_wing_section_4_element_Transf_Sca">												
+												<x>1.484938732888</x>												
+												<y>1.484938732888</y>												
+												<z>1.484938732888</z>												
+											</scaling>											
+											<rotation uID="Aircraft_main_wing_section_4_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_main_wing_section_4_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+						</sections>						
+						<positionings>							
+							<positioning uID="Aircraft_main_wing_position_1">								
+								<name>Aircraft_main_wing_position_1</name>								
+								<description>Aircraft_main_wing_position_1</description>								
+								<length>0.0</length>								
+								<sweepAngle>0.0</sweepAngle>								
+								<dihedralAngle>0.0</dihedralAngle>								
+								<fromSectionUID/>								
+								<toSectionUID>Aircraft_main_wing_section_1</toSectionUID>								
+							</positioning>							
+							<positioning uID="Aircraft_main_wing_position_2">								
+								<name>Aircraft_main_wing_position_2</name>								
+								<description>Aircraft_main_wing_position_2</description>								
+								<length>2.2631097076796385</length>								
+								<sweepAngle>27.0</sweepAngle>								
+								<dihedralAngle>5.0</dihedralAngle>								
+								<fromSectionUID>Aircraft_main_wing_section_1</fromSectionUID>								
+								<toSectionUID>Aircraft_main_wing_section_2</toSectionUID>								
+							</positioning>							
+							<positioning uID="Aircraft_main_wing_position_3">								
+								<name>Aircraft_main_wing_position_3</name>								
+								<description>Aircraft_main_wing_position_3</description>								
+								<length>4.932418593660751</length>								
+								<sweepAngle>27.0</sweepAngle>								
+								<dihedralAngle>5.0</dihedralAngle>								
+								<fromSectionUID>Aircraft_main_wing_section_2</fromSectionUID>								
+								<toSectionUID>Aircraft_main_wing_section_3</toSectionUID>								
+							</positioning>							
+							<positioning uID="Aircraft_main_wing_position_4">								
+								<name>Aircraft_main_wing_position_4</name>								
+								<description>Aircraft_main_wing_position_4</description>								
+								<length>12.147289713015496</length>								
+								<sweepAngle>27.0</sweepAngle>								
+								<dihedralAngle>5.0</dihedralAngle>								
+								<fromSectionUID>Aircraft_main_wing_section_3</fromSectionUID>								
+								<toSectionUID>Aircraft_main_wing_section_4</toSectionUID>								
+							</positioning>							
+						</positionings>						
+						<segments>							
+							<segment uID="Aircraft_main_wing_segment_1">								
+								<name>Aircraft_main_wing_segment_1</name>								
+								<description>Aircraft_main_wing_segment_1</description>								
+								<fromElementUID>Aircraft_main_wing_section_1_element</fromElementUID>								
+								<toElementUID>Aircraft_main_wing_section_2_element</toElementUID>								
+							</segment>							
+							<segment uID="Aircraft_main_wing_segment_2">								
+								<name>Aircraft_main_wing_segment_2</name>								
+								<description>Aircraft_main_wing_segment_2</description>								
+								<fromElementUID>Aircraft_main_wing_section_2_element</fromElementUID>								
+								<toElementUID>Aircraft_main_wing_section_3_element</toElementUID>								
+							</segment>							
+							<segment uID="Aircraft_main_wing_segment_3">								
+								<name>Aircraft_main_wing_segment_3</name>								
+								<description>Aircraft_main_wing_segment_3</description>								
+								<fromElementUID>Aircraft_main_wing_section_3_element</fromElementUID>								
+								<toElementUID>Aircraft_main_wing_section_4_element</toElementUID>								
+							</segment>							
+						</segments>						
+					</wing>					
+					<wing symmetry="x-z-plane" uID="Aircraft_horizontal_stabilizer">						
+						<name>Aircraft_horizontal_stabilizer</name>						
+						<description>Aircraft_horizontal_stabilizer</description>						
+						<transformation uID="Aircraft_horizontal_stabilizer_Transf">							
+							<scaling uID="Aircraft_horizontal_stabilizer_Transf_Sca">								
+								<x>1.0</x>								
+								<y>1.0</y>								
+								<z>1.0</z>								
+							</scaling>							
+							<rotation uID="Aircraft_horizontal_stabilizer_Transf_Rot">								
+								<x>0.0</x>								
+								<y>0.0</y>								
+								<z>0.0</z>								
+							</rotation>							
+							<translation uID="Aircraft_horizontal_stabilizer_Transf_Tra">								
+								<x>31.47</x>								
+								<y>0</y>								
+								<z>0.69</z>								
+							</translation>							
+						</transformation>						
+						<sections>							
+							<section uID="Aircraft_horizontal_stabilizer_section_1">								
+								<name>Aircraft_horizontal_stabilizer_section_1</name>								
+								<description>Aircraft_horizontal_stabilizer_section_1</description>								
+								<transformation uID="Aircraft_horizontal_stabilizer_section_1_Transf">									
+									<scaling uID="Aircraft_horizontal_stabilizer_section_1_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_horizontal_stabilizer_section_1_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_horizontal_stabilizer_section_1_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_horizontal_stabilizer_section_1_element">										
+										<name>Aircraft_horizontal_stabilizer_section_1_element</name>										
+										<description>Aircraft_horizontal_stabilizer_section_1_element</description>										
+										<airfoilUID>HighLift</airfoilUID>										
+										<transformation uID="Aircraft_horizontal_stabilizer_section_1_element_Transf">											
+											<scaling uID="Aircraft_horizontal_stabilizer_section_1_element_Transf_Sca">												
+												<x>4.2</x>												
+												<y>4.2</y>												
+												<z>4.2</z>												
+											</scaling>											
+											<rotation uID="Aircraft_horizontal_stabilizer_section_1_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_horizontal_stabilizer_section_1_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+							<section uID="Aircraft_horizontal_stabilizer_section_2">								
+								<name>Aircraft_horizontal_stabilizer_section_2</name>								
+								<description>Aircraft_horizontal_stabilizer_section_2</description>								
+								<transformation uID="Aircraft_horizontal_stabilizer_section_2_Transf">									
+									<scaling uID="Aircraft_horizontal_stabilizer_section_2_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_horizontal_stabilizer_section_2_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_horizontal_stabilizer_section_2_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_horizontal_stabilizer_section_2_element">										
+										<name>Aircraft_horizontal_stabilizer_section_2_element</name>										
+										<description>Aircraft_horizontal_stabilizer_section_2_element</description>										
+										<airfoilUID>HighLift</airfoilUID>										
+										<transformation uID="Aircraft_horizontal_stabilizer_section_2_element_Transf">											
+											<scaling uID="Aircraft_horizontal_stabilizer_section_2_element_Transf_Sca">												
+												<x>3.719058</x>												
+												<y>3.719058</y>												
+												<z>3.719058</z>												
+											</scaling>											
+											<rotation uID="Aircraft_horizontal_stabilizer_section_2_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_horizontal_stabilizer_section_2_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+							<section uID="Aircraft_horizontal_stabilizer_section_3">								
+								<name>Aircraft_horizontal_stabilizer_section_3</name>								
+								<description>Aircraft_horizontal_stabilizer_section_3</description>								
+								<transformation uID="Aircraft_horizontal_stabilizer_section_3_Transf">									
+									<scaling uID="Aircraft_horizontal_stabilizer_section_3_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_horizontal_stabilizer_section_3_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_horizontal_stabilizer_section_3_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_horizontal_stabilizer_section_3_element">										
+										<name>Aircraft_horizontal_stabilizer_section_3_element</name>										
+										<description>Aircraft_horizontal_stabilizer_section_3_element</description>										
+										<airfoilUID>HighLift</airfoilUID>										
+										<transformation uID="Aircraft_horizontal_stabilizer_section_3_element_Transf">											
+											<scaling uID="Aircraft_horizontal_stabilizer_section_3_element_Transf_Sca">												
+												<x>1.3356000000000001</x>												
+												<y>1.3356000000000001</y>												
+												<z>1.3356000000000001</z>												
+											</scaling>											
+											<rotation uID="Aircraft_horizontal_stabilizer_section_3_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_horizontal_stabilizer_section_3_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+						</sections>						
+						<positionings>							
+							<positioning uID="Aircraft_horizontal_stabilizer_position_1">								
+								<name>Aircraft_horizontal_stabilizer_position_1</name>								
+								<description>Aircraft_horizontal_stabilizer_position_1</description>								
+								<length>0.0</length>								
+								<sweepAngle>0.0</sweepAngle>								
+								<dihedralAngle>0.0</dihedralAngle>								
+								<fromSectionUID/>								
+								<toSectionUID>Aircraft_horizontal_stabilizer_section_1</toSectionUID>								
+							</positioning>							
+							<positioning uID="Aircraft_horizontal_stabilizer_position_2">								
+								<name>Aircraft_horizontal_stabilizer_position_2</name>								
+								<description>Aircraft_horizontal_stabilizer_position_2</description>								
+								<length>1.228373588</length>								
+								<sweepAngle>33.0</sweepAngle>								
+								<dihedralAngle>5.0</dihedralAngle>								
+								<fromSectionUID>Aircraft_horizontal_stabilizer_section_1</fromSectionUID>								
+								<toSectionUID>Aircraft_horizontal_stabilizer_section_2</toSectionUID>								
+							</positioning>							
+							<positioning uID="Aircraft_horizontal_stabilizer_position_3">								
+								<name>Aircraft_horizontal_stabilizer_position_3</name>								
+								<description>Aircraft_horizontal_stabilizer_position_3</description>								
+								<length>6.234406412</length>								
+								<sweepAngle>33.0</sweepAngle>								
+								<dihedralAngle>5.0</dihedralAngle>								
+								<fromSectionUID>Aircraft_horizontal_stabilizer_section_2</fromSectionUID>								
+								<toSectionUID>Aircraft_horizontal_stabilizer_section_3</toSectionUID>								
+							</positioning>							
+						</positionings>						
+						<segments>							
+							<segment uID="Aircraft_horizontal_stabilizer_segment_1">								
+								<name>Aircraft_horizontal_stabilizer_segment_1</name>								
+								<description>Aircraft_horizontal_stabilizer_segment_1</description>								
+								<fromElementUID>Aircraft_horizontal_stabilizer_section_1_element</fromElementUID>								
+								<toElementUID>Aircraft_horizontal_stabilizer_section_2_element</toElementUID>								
+							</segment>							
+							<segment uID="Aircraft_horizontal_stabilizer_segment_2">								
+								<name>Aircraft_horizontal_stabilizer_segment_2</name>								
+								<description>Aircraft_horizontal_stabilizer_segment_2</description>								
+								<fromElementUID>Aircraft_horizontal_stabilizer_section_2_element</fromElementUID>								
+								<toElementUID>Aircraft_horizontal_stabilizer_section_3_element</toElementUID>								
+							</segment>							
+						</segments>						
+					</wing>					
+					<wing uID="Aircraft_vertical_stabilizer">						
+						<name>Aircraft_vertical_stabilizer</name>						
+						<description>Aircraft_vertical_stabilizer</description>						
+						<transformation uID="Aircraft_vertical_stabilizer_Transf">							
+							<scaling uID="Aircraft_vertical_stabilizer_Transf_Sca">								
+								<x>1.0</x>								
+								<y>1.0</y>								
+								<z>1.0</z>								
+							</scaling>							
+							<rotation uID="Aircraft_vertical_stabilizer_Transf_Rot">								
+								<x>90.0</x>								
+								<y>0.0</y>								
+								<z>0.0</z>								
+							</rotation>							
+							<translation uID="Aircraft_vertical_stabilizer_Transf_Tra">								
+								<x>28.08</x>								
+								<y>0</y>								
+								<z>1.14</z>								
+							</translation>							
+						</transformation>						
+						<sections>							
+							<section uID="Aircraft_vertical_stabilizer_section_1">								
+								<name>Aircraft_vertical_stabilizer_section_1</name>								
+								<description>Aircraft_vertical_stabilizer_section_1</description>								
+								<transformation uID="Aircraft_vertical_stabilizer_section_1_Transf">									
+									<scaling uID="Aircraft_vertical_stabilizer_section_1_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_vertical_stabilizer_section_1_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_vertical_stabilizer_section_1_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_vertical_stabilizer_section_1_element">										
+										<name>Aircraft_vertical_stabilizer_section_1_element</name>										
+										<description>Aircraft_vertical_stabilizer_section_1_element</description>										
+										<airfoilUID>HighLift</airfoilUID>										
+										<transformation uID="Aircraft_vertical_stabilizer_section_1_element_Transf">											
+											<scaling uID="Aircraft_vertical_stabilizer_section_1_element_Transf_Sca">												
+												<x>6.99018</x>												
+												<y>6.99018</y>												
+												<z>6.99018</z>												
+											</scaling>											
+											<rotation uID="Aircraft_vertical_stabilizer_section_1_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_vertical_stabilizer_section_1_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+							<section uID="Aircraft_vertical_stabilizer_section_2">								
+								<name>Aircraft_vertical_stabilizer_section_2</name>								
+								<description>Aircraft_vertical_stabilizer_section_2</description>								
+								<transformation uID="Aircraft_vertical_stabilizer_section_2_Transf">									
+									<scaling uID="Aircraft_vertical_stabilizer_section_2_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_vertical_stabilizer_section_2_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_vertical_stabilizer_section_2_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_vertical_stabilizer_section_2_element">										
+										<name>Aircraft_vertical_stabilizer_section_2_element</name>										
+										<description>Aircraft_vertical_stabilizer_section_2_element</description>										
+										<airfoilUID>HighLift</airfoilUID>										
+										<transformation uID="Aircraft_vertical_stabilizer_section_2_element_Transf">											
+											<scaling uID="Aircraft_vertical_stabilizer_section_2_element_Transf_Sca">												
+												<x>4.610023709999999</x>												
+												<y>4.610023709999999</y>												
+												<z>4.610023709999999</z>												
+											</scaling>											
+											<rotation uID="Aircraft_vertical_stabilizer_section_2_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_vertical_stabilizer_section_2_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+							<section uID="Aircraft_vertical_stabilizer_section_3">								
+								<name>Aircraft_vertical_stabilizer_section_3</name>								
+								<description>Aircraft_vertical_stabilizer_section_3</description>								
+								<transformation uID="Aircraft_vertical_stabilizer_section_3_Transf">									
+									<scaling uID="Aircraft_vertical_stabilizer_section_3_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_vertical_stabilizer_section_3_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_vertical_stabilizer_section_3_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_vertical_stabilizer_section_3_element">										
+										<name>Aircraft_vertical_stabilizer_section_3_element</name>										
+										<description>Aircraft_vertical_stabilizer_section_3_element</description>										
+										<airfoilUID>HighLift</airfoilUID>										
+										<transformation uID="Aircraft_vertical_stabilizer_section_3_element_Transf">											
+											<scaling uID="Aircraft_vertical_stabilizer_section_3_element_Transf_Sca">												
+												<x>1.9698327239999998</x>												
+												<y>1.9698327239999998</y>												
+												<z>1.9698327239999998</z>												
+											</scaling>											
+											<rotation uID="Aircraft_vertical_stabilizer_section_3_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_vertical_stabilizer_section_3_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+						</sections>						
+						<positionings>							
+							<positioning uID="Aircraft_vertical_stabilizer_position_1">								
+								<name>Aircraft_vertical_stabilizer_position_1</name>								
+								<description>Aircraft_vertical_stabilizer_position_1</description>								
+								<length>0.0</length>								
+								<sweepAngle>0.0</sweepAngle>								
+								<dihedralAngle>0.0</dihedralAngle>								
+								<fromSectionUID/>								
+								<toSectionUID>Aircraft_vertical_stabilizer_section_1</toSectionUID>								
+							</positioning>							
+							<positioning uID="Aircraft_vertical_stabilizer_position_2">								
+								<name>Aircraft_vertical_stabilizer_position_2</name>								
+								<description>Aircraft_vertical_stabilizer_position_2</description>								
+								<length>3.6796670254999997</length>								
+								<sweepAngle>52.50000000000001</sweepAngle>								
+								<dihedralAngle>0.0</dihedralAngle>								
+								<fromSectionUID>Aircraft_vertical_stabilizer_section_1</fromSectionUID>								
+								<toSectionUID>Aircraft_vertical_stabilizer_section_2</toSectionUID>								
+							</positioning>							
+							<positioning uID="Aircraft_vertical_stabilizer_position_3">								
+								<name>Aircraft_vertical_stabilizer_position_3</name>								
+								<description>Aircraft_vertical_stabilizer_position_3</description>								
+								<length>5.961802974499999</length>								
+								<sweepAngle>39.2</sweepAngle>								
+								<dihedralAngle>0.0</dihedralAngle>								
+								<fromSectionUID>Aircraft_vertical_stabilizer_section_2</fromSectionUID>								
+								<toSectionUID>Aircraft_vertical_stabilizer_section_3</toSectionUID>								
+							</positioning>							
+						</positionings>						
+						<segments>							
+							<segment uID="Aircraft_vertical_stabilizer_segment_1">								
+								<name>Aircraft_vertical_stabilizer_segment_1</name>								
+								<description>Aircraft_vertical_stabilizer_segment_1</description>								
+								<fromElementUID>Aircraft_vertical_stabilizer_section_1_element</fromElementUID>								
+								<toElementUID>Aircraft_vertical_stabilizer_section_2_element</toElementUID>								
+							</segment>							
+							<segment uID="Aircraft_vertical_stabilizer_segment_2">								
+								<name>Aircraft_vertical_stabilizer_segment_2</name>								
+								<description>Aircraft_vertical_stabilizer_segment_2</description>								
+								<fromElementUID>Aircraft_vertical_stabilizer_section_2_element</fromElementUID>								
+								<toElementUID>Aircraft_vertical_stabilizer_section_3_element</toElementUID>								
+							</segment>							
+						</segments>						
+					</wing>					
+				</wings>				
+				<fuselages>					
+					<fuselage uID="Aircraft_fuselage">						
+						<description>Aircraft_fuselage</description>						
+						<transformation uID="Aircraft_fuselage_Transf">							
+							<scaling uID="Aircraft_fuselage_Transf_Sca">								
+								<x>1.0</x>								
+								<y>1.0</y>								
+								<z>1.0</z>								
+							</scaling>							
+							<rotation uID="Aircraft_fuselage_Transf_Rot">								
+								<x>0.0</x>								
+								<y>0.0</y>								
+								<z>0.0</z>								
+							</rotation>							
+							<translation uID="Aircraft_fuselage_Transf_Tra">								
+								<x>0.0</x>								
+								<y>0.0</y>								
+								<z>0.0</z>								
+							</translation>							
+						</transformation>						
+						<sections>							
+							<section uID="Aircraft_fuselage_section_1">								
+								<name>Aircraft_fuselage_section_1</name>								
+								<description>Aircraft_fuselage_section_1</description>								
+								<transformation uID="Aircraft_fuselage_section_1_Transf">									
+									<scaling uID="Aircraft_fuselage_section_1_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_fuselage_section_1_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_fuselage_section_1_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_fuselage_section_1_element">										
+										<name>Aircraft_fuselage_section_1_element</name>										
+										<description>Aircraft_fuselage_section_1_element</description>										
+										<profileUID>fuselageCircle</profileUID>										
+										<transformation uID="Aircraft_fuselage_section_1_element_Transf">											
+											<scaling uID="Aircraft_fuselage_section_1_element_Transf_Sca">												
+												<x>0.1848</x>												
+												<y>0.1848</y>												
+												<z>0.1848</z>												
+											</scaling>											
+											<rotation uID="Aircraft_fuselage_section_1_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_fuselage_section_1_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>-0.8099</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+							<section uID="Aircraft_fuselage_section_2">								
+								<name>Aircraft_fuselage_section_2</name>								
+								<description>Aircraft_fuselage_section_2</description>								
+								<transformation uID="Aircraft_fuselage_section_2_Transf">									
+									<scaling uID="Aircraft_fuselage_section_2_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_fuselage_section_2_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_fuselage_section_2_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_fuselage_section_2_element">										
+										<name>Aircraft_fuselage_section_2_element</name>										
+										<description>Aircraft_fuselage_section_2_element</description>										
+										<profileUID>fuselageCircle</profileUID>										
+										<transformation uID="Aircraft_fuselage_section_2_element_Transf">											
+											<scaling uID="Aircraft_fuselage_section_2_element_Transf_Sca">												
+												<x>0.8576163430228958</x>												
+												<y>0.8576163430228958</y>												
+												<z>0.8576163430228958</z>												
+											</scaling>											
+											<rotation uID="Aircraft_fuselage_section_2_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_fuselage_section_2_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>-0.7140873008648156</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+							<section uID="Aircraft_fuselage_section_3">								
+								<name>Aircraft_fuselage_section_3</name>								
+								<description>Aircraft_fuselage_section_3</description>								
+								<transformation uID="Aircraft_fuselage_section_3_Transf">									
+									<scaling uID="Aircraft_fuselage_section_3_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_fuselage_section_3_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_fuselage_section_3_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_fuselage_section_3_element">										
+										<name>Aircraft_fuselage_section_3_element</name>										
+										<description>Aircraft_fuselage_section_3_element</description>										
+										<profileUID>fuselageCircle</profileUID>										
+										<transformation uID="Aircraft_fuselage_section_3_element_Transf">											
+											<scaling uID="Aircraft_fuselage_section_3_element_Transf_Sca">												
+												<x>1.4181604614145702</x>												
+												<y>1.4181604614145702</y>												
+												<z>1.4181604614145702</z>												
+											</scaling>											
+											<rotation uID="Aircraft_fuselage_section_3_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_fuselage_section_3_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>-0.6182806554392353</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+							<section uID="Aircraft_fuselage_section_4">								
+								<name>Aircraft_fuselage_section_4</name>								
+								<description>Aircraft_fuselage_section_4</description>								
+								<transformation uID="Aircraft_fuselage_section_4_Transf">									
+									<scaling uID="Aircraft_fuselage_section_4_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_fuselage_section_4_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_fuselage_section_4_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_fuselage_section_4_element">										
+										<name>Aircraft_fuselage_section_4_element</name>										
+										<description>Aircraft_fuselage_section_4_element</description>										
+										<profileUID>fuselageCircle</profileUID>										
+										<transformation uID="Aircraft_fuselage_section_4_element_Transf">											
+											<scaling uID="Aircraft_fuselage_section_4_element_Transf_Sca">												
+												<x>1.8864333516925984</x>												
+												<y>1.8864333516925984</y>												
+												<z>1.8864333516925984</z>												
+											</scaling>											
+											<rotation uID="Aircraft_fuselage_section_4_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_fuselage_section_4_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>-0.5240849340009104</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+							<section uID="Aircraft_fuselage_section_5">								
+								<name>Aircraft_fuselage_section_5</name>								
+								<description>Aircraft_fuselage_section_5</description>								
+								<transformation uID="Aircraft_fuselage_section_5_Transf">									
+									<scaling uID="Aircraft_fuselage_section_5_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_fuselage_section_5_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_fuselage_section_5_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_fuselage_section_5_element">										
+										<name>Aircraft_fuselage_section_5_element</name>										
+										<description>Aircraft_fuselage_section_5_element</description>										
+										<profileUID>fuselageCircle</profileUID>										
+										<transformation uID="Aircraft_fuselage_section_5_element_Transf">											
+											<scaling uID="Aircraft_fuselage_section_5_element_Transf_Sca">												
+												<x>2.2758233686064644</x>												
+												<y>2.2758233686064644</y>												
+												<z>2.2758233686064644</z>												
+											</scaling>											
+											<rotation uID="Aircraft_fuselage_section_5_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_fuselage_section_5_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>-0.43310500682749203</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+							<section uID="Aircraft_fuselage_section_6">								
+								<name>Aircraft_fuselage_section_6</name>								
+								<description>Aircraft_fuselage_section_6</description>								
+								<transformation uID="Aircraft_fuselage_section_6_Transf">									
+									<scaling uID="Aircraft_fuselage_section_6_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_fuselage_section_6_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_fuselage_section_6_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_fuselage_section_6_element">										
+										<name>Aircraft_fuselage_section_6_element</name>										
+										<description>Aircraft_fuselage_section_6_element</description>										
+										<profileUID>fuselageCircle</profileUID>										
+										<transformation uID="Aircraft_fuselage_section_6_element_Transf">											
+											<scaling uID="Aircraft_fuselage_section_6_element_Transf_Sca">												
+												<x>2.5949354597312633</x>												
+												<y>2.5949354597312633</y>												
+												<z>2.5949354597312633</z>												
+											</scaling>											
+											<rotation uID="Aircraft_fuselage_section_6_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_fuselage_section_6_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>-0.34694574419663177</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+							<section uID="Aircraft_fuselage_section_7">								
+								<name>Aircraft_fuselage_section_7</name>								
+								<description>Aircraft_fuselage_section_7</description>								
+								<transformation uID="Aircraft_fuselage_section_7_Transf">									
+									<scaling uID="Aircraft_fuselage_section_7_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_fuselage_section_7_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_fuselage_section_7_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_fuselage_section_7_element">										
+										<name>Aircraft_fuselage_section_7_element</name>										
+										<description>Aircraft_fuselage_section_7_element</description>										
+										<profileUID>fuselageCircle</profileUID>										
+										<transformation uID="Aircraft_fuselage_section_7_element_Transf">											
+											<scaling uID="Aircraft_fuselage_section_7_element_Transf_Sca">												
+												<x>2.8494204000614065</x>												
+												<y>2.8494204000614065</y>												
+												<z>2.8494204000614065</z>												
+											</scaling>											
+											<rotation uID="Aircraft_fuselage_section_7_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_fuselage_section_7_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>-0.26721201638598086</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+							<section uID="Aircraft_fuselage_section_8">								
+								<name>Aircraft_fuselage_section_8</name>								
+								<description>Aircraft_fuselage_section_8</description>								
+								<transformation uID="Aircraft_fuselage_section_8_Transf">									
+									<scaling uID="Aircraft_fuselage_section_8_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_fuselage_section_8_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_fuselage_section_8_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_fuselage_section_8_element">										
+										<name>Aircraft_fuselage_section_8_element</name>										
+										<description>Aircraft_fuselage_section_8_element</description>										
+										<profileUID>fuselageCircle</profileUID>										
+										<transformation uID="Aircraft_fuselage_section_8_element_Transf">											
+											<scaling uID="Aircraft_fuselage_section_8_element_Transf_Sca">												
+												<x>3.0438040266043256</x>												
+												<y>3.0438040266043256</y>												
+												<z>3.0438040266043256</z>												
+											</scaling>											
+											<rotation uID="Aircraft_fuselage_section_8_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_fuselage_section_8_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>-0.19550869367319068</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+							<section uID="Aircraft_fuselage_section_9">								
+								<name>Aircraft_fuselage_section_9</name>								
+								<description>Aircraft_fuselage_section_9</description>								
+								<transformation uID="Aircraft_fuselage_section_9_Transf">									
+									<scaling uID="Aircraft_fuselage_section_9_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_fuselage_section_9_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_fuselage_section_9_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_fuselage_section_9_element">										
+										<name>Aircraft_fuselage_section_9_element</name>										
+										<description>Aircraft_fuselage_section_9_element</description>										
+										<profileUID>fuselageCircle</profileUID>										
+										<transformation uID="Aircraft_fuselage_section_9_element_Transf">											
+											<scaling uID="Aircraft_fuselage_section_9_element_Transf_Sca">												
+												<x>3.1833164729741736</x>												
+												<y>3.1833164729741736</y>												
+												<z>3.1833164729741736</z>												
+											</scaling>											
+											<rotation uID="Aircraft_fuselage_section_9_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_fuselage_section_9_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>-0.13344064633591257</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+							<section uID="Aircraft_fuselage_section_10">								
+								<name>Aircraft_fuselage_section_10</name>								
+								<description>Aircraft_fuselage_section_10</description>								
+								<transformation uID="Aircraft_fuselage_section_10_Transf">									
+									<scaling uID="Aircraft_fuselage_section_10_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_fuselage_section_10_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_fuselage_section_10_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_fuselage_section_10_element">										
+										<name>Aircraft_fuselage_section_10_element</name>										
+										<description>Aircraft_fuselage_section_10_element</description>										
+										<profileUID>fuselageCircle</profileUID>										
+										<transformation uID="Aircraft_fuselage_section_10_element_Transf">											
+											<scaling uID="Aircraft_fuselage_section_10_element_Transf_Sca">												
+												<x>3.275721403985532</x>												
+												<y>3.275721403985532</y>												
+												<z>3.275721403985532</z>												
+											</scaling>											
+											<rotation uID="Aircraft_fuselage_section_10_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_fuselage_section_10_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>-0.08261274465179795</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+							<section uID="Aircraft_fuselage_section_11">								
+								<name>Aircraft_fuselage_section_11</name>								
+								<description>Aircraft_fuselage_section_11</description>								
+								<transformation uID="Aircraft_fuselage_section_11_Transf">									
+									<scaling uID="Aircraft_fuselage_section_11_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_fuselage_section_11_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_fuselage_section_11_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_fuselage_section_11_element">										
+										<name>Aircraft_fuselage_section_11_element</name>										
+										<description>Aircraft_fuselage_section_11_element</description>										
+										<profileUID>fuselageCircle</profileUID>										
+										<transformation uID="Aircraft_fuselage_section_11_element_Transf">											
+											<scaling uID="Aircraft_fuselage_section_11_element_Transf_Sca">												
+												<x>3.333145250247109</x>												
+												<y>3.333145250247109</y>												
+												<z>3.333145250247109</z>												
+											</scaling>											
+											<rotation uID="Aircraft_fuselage_section_11_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_fuselage_section_11_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>-0.04462985889849798</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+							<section uID="Aircraft_fuselage_section_12">								
+								<name>Aircraft_fuselage_section_12</name>								
+								<description>Aircraft_fuselage_section_12</description>								
+								<transformation uID="Aircraft_fuselage_section_12_Transf">									
+									<scaling uID="Aircraft_fuselage_section_12_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_fuselage_section_12_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_fuselage_section_12_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_fuselage_section_12_element">										
+										<name>Aircraft_fuselage_section_12_element</name>										
+										<description>Aircraft_fuselage_section_12_element</description>										
+										<profileUID>fuselageCircle</profileUID>										
+										<transformation uID="Aircraft_fuselage_section_12_element_Transf">											
+											<scaling uID="Aircraft_fuselage_section_12_element_Transf_Sca">												
+												<x>3.37390644275545</x>												
+												<y>3.37390644275545</y>												
+												<z>3.37390644275545</z>												
+											</scaling>											
+											<rotation uID="Aircraft_fuselage_section_12_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_fuselage_section_12_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>-0.021096859353664066</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+							<section uID="Aircraft_fuselage_section_13">								
+								<name>Aircraft_fuselage_section_13</name>								
+								<description>Aircraft_fuselage_section_13</description>								
+								<transformation uID="Aircraft_fuselage_section_13_Transf">									
+									<scaling uID="Aircraft_fuselage_section_13_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_fuselage_section_13_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_fuselage_section_13_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_fuselage_section_13_element">										
+										<name>Aircraft_fuselage_section_13_element</name>										
+										<description>Aircraft_fuselage_section_13_element</description>										
+										<profileUID>fuselageCircle</profileUID>										
+										<transformation uID="Aircraft_fuselage_section_13_element_Transf">											
+											<scaling uID="Aircraft_fuselage_section_13_element_Transf_Sca">												
+												<x>3.4243446474886383</x>												
+												<y>3.4243446474886383</y>												
+												<z>3.4243446474886383</z>												
+											</scaling>											
+											<rotation uID="Aircraft_fuselage_section_13_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_fuselage_section_13_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>-0.013618616294947608</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+							<section uID="Aircraft_fuselage_section_14">								
+								<name>Aircraft_fuselage_section_14</name>								
+								<description>Aircraft_fuselage_section_14</description>								
+								<transformation uID="Aircraft_fuselage_section_14_Transf">									
+									<scaling uID="Aircraft_fuselage_section_14_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_fuselage_section_14_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_fuselage_section_14_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_fuselage_section_14_element">										
+										<name>Aircraft_fuselage_section_14_element</name>										
+										<description>Aircraft_fuselage_section_14_element</description>										
+										<profileUID>fuselageCircle</profileUID>										
+										<transformation uID="Aircraft_fuselage_section_14_element_Transf">											
+											<scaling uID="Aircraft_fuselage_section_14_element_Transf_Sca">												
+												<x>3.5206499999999994</x>												
+												<y>3.5206499999999994</y>												
+												<z>3.5206499999999994</z>												
+											</scaling>											
+											<rotation uID="Aircraft_fuselage_section_14_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_fuselage_section_14_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>-0.0238</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+							<section uID="Aircraft_fuselage_section_15">								
+								<name>Aircraft_fuselage_section_15</name>								
+								<description>Aircraft_fuselage_section_15</description>								
+								<transformation uID="Aircraft_fuselage_section_15_Transf">									
+									<scaling uID="Aircraft_fuselage_section_15_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_fuselage_section_15_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_fuselage_section_15_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_fuselage_section_15_element">										
+										<name>Aircraft_fuselage_section_15_element</name>										
+										<description>Aircraft_fuselage_section_15_element</description>										
+										<profileUID>fuselageCircle</profileUID>										
+										<transformation uID="Aircraft_fuselage_section_15_element_Transf">											
+											<scaling uID="Aircraft_fuselage_section_15_element_Transf_Sca">												
+												<x>3.5</x>												
+												<y>3.5</y>												
+												<z>3.5</z>												
+											</scaling>											
+											<rotation uID="Aircraft_fuselage_section_15_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_fuselage_section_15_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+							<section uID="Aircraft_fuselage_section_16">								
+								<name>Aircraft_fuselage_section_16</name>								
+								<description>Aircraft_fuselage_section_16</description>								
+								<transformation uID="Aircraft_fuselage_section_16_Transf">									
+									<scaling uID="Aircraft_fuselage_section_16_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_fuselage_section_16_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_fuselage_section_16_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_fuselage_section_16_element">										
+										<name>Aircraft_fuselage_section_16_element</name>										
+										<description>Aircraft_fuselage_section_16_element</description>										
+										<profileUID>fuselageCircle</profileUID>										
+										<transformation uID="Aircraft_fuselage_section_16_element_Transf">											
+											<scaling uID="Aircraft_fuselage_section_16_element_Transf_Sca">												
+												<x>3.36</x>												
+												<y>3.36</y>												
+												<z>3.36</z>												
+											</scaling>											
+											<rotation uID="Aircraft_fuselage_section_16_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_fuselage_section_16_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+							<section uID="Aircraft_fuselage_section_17">								
+								<name>Aircraft_fuselage_section_17</name>								
+								<description>Aircraft_fuselage_section_17</description>								
+								<transformation uID="Aircraft_fuselage_section_17_Transf">									
+									<scaling uID="Aircraft_fuselage_section_17_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_fuselage_section_17_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_fuselage_section_17_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_fuselage_section_17_element">										
+										<name>Aircraft_fuselage_section_17_element</name>										
+										<description>Aircraft_fuselage_section_17_element</description>										
+										<profileUID>fuselageCircle</profileUID>										
+										<transformation uID="Aircraft_fuselage_section_17_element_Transf">											
+											<scaling uID="Aircraft_fuselage_section_17_element_Transf_Sca">												
+												<x>3.112307692307692</x>												
+												<y>3.112307692307692</y>												
+												<z>3.112307692307692</z>												
+											</scaling>											
+											<rotation uID="Aircraft_fuselage_section_17_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_fuselage_section_17_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.04038461538461539</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+							<section uID="Aircraft_fuselage_section_18">								
+								<name>Aircraft_fuselage_section_18</name>								
+								<description>Aircraft_fuselage_section_18</description>								
+								<transformation uID="Aircraft_fuselage_section_18_Transf">									
+									<scaling uID="Aircraft_fuselage_section_18_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_fuselage_section_18_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_fuselage_section_18_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_fuselage_section_18_element">										
+										<name>Aircraft_fuselage_section_18_element</name>										
+										<description>Aircraft_fuselage_section_18_element</description>										
+										<profileUID>fuselageCircle</profileUID>										
+										<transformation uID="Aircraft_fuselage_section_18_element_Transf">											
+											<scaling uID="Aircraft_fuselage_section_18_element_Transf_Sca">												
+												<x>2.864615384615384</x>												
+												<y>2.864615384615384</y>												
+												<z>2.864615384615384</z>												
+											</scaling>											
+											<rotation uID="Aircraft_fuselage_section_18_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_fuselage_section_18_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.08076923076923077</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+							<section uID="Aircraft_fuselage_section_19">								
+								<name>Aircraft_fuselage_section_19</name>								
+								<description>Aircraft_fuselage_section_19</description>								
+								<transformation uID="Aircraft_fuselage_section_19_Transf">									
+									<scaling uID="Aircraft_fuselage_section_19_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_fuselage_section_19_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_fuselage_section_19_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_fuselage_section_19_element">										
+										<name>Aircraft_fuselage_section_19_element</name>										
+										<description>Aircraft_fuselage_section_19_element</description>										
+										<profileUID>fuselageCircle</profileUID>										
+										<transformation uID="Aircraft_fuselage_section_19_element_Transf">											
+											<scaling uID="Aircraft_fuselage_section_19_element_Transf_Sca">												
+												<x>2.6169230769230767</x>												
+												<y>2.6169230769230767</y>												
+												<z>2.6169230769230767</z>												
+											</scaling>											
+											<rotation uID="Aircraft_fuselage_section_19_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_fuselage_section_19_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.12115384615384617</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+							<section uID="Aircraft_fuselage_section_20">								
+								<name>Aircraft_fuselage_section_20</name>								
+								<description>Aircraft_fuselage_section_20</description>								
+								<transformation uID="Aircraft_fuselage_section_20_Transf">									
+									<scaling uID="Aircraft_fuselage_section_20_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_fuselage_section_20_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_fuselage_section_20_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_fuselage_section_20_element">										
+										<name>Aircraft_fuselage_section_20_element</name>										
+										<description>Aircraft_fuselage_section_20_element</description>										
+										<profileUID>fuselageCircle</profileUID>										
+										<transformation uID="Aircraft_fuselage_section_20_element_Transf">											
+											<scaling uID="Aircraft_fuselage_section_20_element_Transf_Sca">												
+												<x>2.369230769230769</x>												
+												<y>2.369230769230769</y>												
+												<z>2.369230769230769</z>												
+											</scaling>											
+											<rotation uID="Aircraft_fuselage_section_20_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_fuselage_section_20_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.16153846153846155</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+							<section uID="Aircraft_fuselage_section_21">								
+								<name>Aircraft_fuselage_section_21</name>								
+								<description>Aircraft_fuselage_section_21</description>								
+								<transformation uID="Aircraft_fuselage_section_21_Transf">									
+									<scaling uID="Aircraft_fuselage_section_21_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_fuselage_section_21_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_fuselage_section_21_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_fuselage_section_21_element">										
+										<name>Aircraft_fuselage_section_21_element</name>										
+										<description>Aircraft_fuselage_section_21_element</description>										
+										<profileUID>fuselageCircle</profileUID>										
+										<transformation uID="Aircraft_fuselage_section_21_element_Transf">											
+											<scaling uID="Aircraft_fuselage_section_21_element_Transf_Sca">												
+												<x>2.121538461538461</x>												
+												<y>2.121538461538461</y>												
+												<z>2.121538461538461</z>												
+											</scaling>											
+											<rotation uID="Aircraft_fuselage_section_21_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_fuselage_section_21_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.20192307692307693</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+							<section uID="Aircraft_fuselage_section_22">								
+								<name>Aircraft_fuselage_section_22</name>								
+								<description>Aircraft_fuselage_section_22</description>								
+								<transformation uID="Aircraft_fuselage_section_22_Transf">									
+									<scaling uID="Aircraft_fuselage_section_22_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_fuselage_section_22_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_fuselage_section_22_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_fuselage_section_22_element">										
+										<name>Aircraft_fuselage_section_22_element</name>										
+										<description>Aircraft_fuselage_section_22_element</description>										
+										<profileUID>fuselageCircle</profileUID>										
+										<transformation uID="Aircraft_fuselage_section_22_element_Transf">											
+											<scaling uID="Aircraft_fuselage_section_22_element_Transf_Sca">												
+												<x>1.8738461538461537</x>												
+												<y>1.8738461538461537</y>												
+												<z>1.8738461538461537</z>												
+											</scaling>											
+											<rotation uID="Aircraft_fuselage_section_22_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_fuselage_section_22_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.24230769230769234</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+							<section uID="Aircraft_fuselage_section_23">								
+								<name>Aircraft_fuselage_section_23</name>								
+								<description>Aircraft_fuselage_section_23</description>								
+								<transformation uID="Aircraft_fuselage_section_23_Transf">									
+									<scaling uID="Aircraft_fuselage_section_23_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_fuselage_section_23_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_fuselage_section_23_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_fuselage_section_23_element">										
+										<name>Aircraft_fuselage_section_23_element</name>										
+										<description>Aircraft_fuselage_section_23_element</description>										
+										<profileUID>fuselageCircle</profileUID>										
+										<transformation uID="Aircraft_fuselage_section_23_element_Transf">											
+											<scaling uID="Aircraft_fuselage_section_23_element_Transf_Sca">												
+												<x>1.6261538461538456</x>												
+												<y>1.6261538461538456</y>												
+												<z>1.6261538461538456</z>												
+											</scaling>											
+											<rotation uID="Aircraft_fuselage_section_23_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_fuselage_section_23_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.2826923076923077</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+							<section uID="Aircraft_fuselage_section_24">								
+								<name>Aircraft_fuselage_section_24</name>								
+								<description>Aircraft_fuselage_section_24</description>								
+								<transformation uID="Aircraft_fuselage_section_24_Transf">									
+									<scaling uID="Aircraft_fuselage_section_24_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_fuselage_section_24_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_fuselage_section_24_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_fuselage_section_24_element">										
+										<name>Aircraft_fuselage_section_24_element</name>										
+										<description>Aircraft_fuselage_section_24_element</description>										
+										<profileUID>fuselageCircle</profileUID>										
+										<transformation uID="Aircraft_fuselage_section_24_element_Transf">											
+											<scaling uID="Aircraft_fuselage_section_24_element_Transf_Sca">												
+												<x>1.3784615384615382</x>												
+												<y>1.3784615384615382</y>												
+												<z>1.3784615384615382</z>												
+											</scaling>											
+											<rotation uID="Aircraft_fuselage_section_24_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_fuselage_section_24_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.3230769230769231</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+							<section uID="Aircraft_fuselage_section_25">								
+								<name>Aircraft_fuselage_section_25</name>								
+								<description>Aircraft_fuselage_section_25</description>								
+								<transformation uID="Aircraft_fuselage_section_25_Transf">									
+									<scaling uID="Aircraft_fuselage_section_25_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_fuselage_section_25_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_fuselage_section_25_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_fuselage_section_25_element">										
+										<name>Aircraft_fuselage_section_25_element</name>										
+										<description>Aircraft_fuselage_section_25_element</description>										
+										<profileUID>fuselageCircle</profileUID>										
+										<transformation uID="Aircraft_fuselage_section_25_element_Transf">											
+											<scaling uID="Aircraft_fuselage_section_25_element_Transf_Sca">												
+												<x>1.1307692307692307</x>												
+												<y>1.1307692307692307</y>												
+												<z>1.1307692307692307</z>												
+											</scaling>											
+											<rotation uID="Aircraft_fuselage_section_25_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_fuselage_section_25_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.36346153846153845</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+							<section uID="Aircraft_fuselage_section_26">								
+								<name>Aircraft_fuselage_section_26</name>								
+								<description>Aircraft_fuselage_section_26</description>								
+								<transformation uID="Aircraft_fuselage_section_26_Transf">									
+									<scaling uID="Aircraft_fuselage_section_26_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_fuselage_section_26_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_fuselage_section_26_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_fuselage_section_26_element">										
+										<name>Aircraft_fuselage_section_26_element</name>										
+										<description>Aircraft_fuselage_section_26_element</description>										
+										<profileUID>fuselageCircle</profileUID>										
+										<transformation uID="Aircraft_fuselage_section_26_element_Transf">											
+											<scaling uID="Aircraft_fuselage_section_26_element_Transf_Sca">												
+												<x>0.8830769230769229</x>												
+												<y>0.8830769230769229</y>												
+												<z>0.8830769230769229</z>												
+											</scaling>											
+											<rotation uID="Aircraft_fuselage_section_26_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_fuselage_section_26_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.40384615384615385</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+							<section uID="Aircraft_fuselage_section_27">								
+								<name>Aircraft_fuselage_section_27</name>								
+								<description>Aircraft_fuselage_section_27</description>								
+								<transformation uID="Aircraft_fuselage_section_27_Transf">									
+									<scaling uID="Aircraft_fuselage_section_27_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_fuselage_section_27_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_fuselage_section_27_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_fuselage_section_27_element">										
+										<name>Aircraft_fuselage_section_27_element</name>										
+										<description>Aircraft_fuselage_section_27_element</description>										
+										<profileUID>fuselageCircle</profileUID>										
+										<transformation uID="Aircraft_fuselage_section_27_element_Transf">											
+											<scaling uID="Aircraft_fuselage_section_27_element_Transf_Sca">												
+												<x>0.635384615384615</x>												
+												<y>0.635384615384615</y>												
+												<z>0.635384615384615</z>												
+											</scaling>											
+											<rotation uID="Aircraft_fuselage_section_27_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_fuselage_section_27_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.4442307692307693</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+							<section uID="Aircraft_fuselage_section_28">								
+								<name>Aircraft_fuselage_section_28</name>								
+								<description>Aircraft_fuselage_section_28</description>								
+								<transformation uID="Aircraft_fuselage_section_28_Transf">									
+									<scaling uID="Aircraft_fuselage_section_28_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_fuselage_section_28_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_fuselage_section_28_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_fuselage_section_28_element">										
+										<name>Aircraft_fuselage_section_28_element</name>										
+										<description>Aircraft_fuselage_section_28_element</description>										
+										<profileUID>fuselageCircle</profileUID>										
+										<transformation uID="Aircraft_fuselage_section_28_element_Transf">											
+											<scaling uID="Aircraft_fuselage_section_28_element_Transf_Sca">												
+												<x>0.38769230769230717</x>												
+												<y>0.38769230769230717</y>												
+												<z>0.38769230769230717</z>												
+											</scaling>											
+											<rotation uID="Aircraft_fuselage_section_28_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_fuselage_section_28_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.48461538461538467</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+							<section uID="Aircraft_fuselage_section_29">								
+								<name>Aircraft_fuselage_section_29</name>								
+								<description>Aircraft_fuselage_section_29</description>								
+								<transformation uID="Aircraft_fuselage_section_29_Transf">									
+									<scaling uID="Aircraft_fuselage_section_29_Transf_Sca">										
+										<x>1.0</x>										
+										<y>1.0</y>										
+										<z>1.0</z>										
+									</scaling>									
+									<rotation uID="Aircraft_fuselage_section_29_Transf_Rot">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</rotation>									
+									<translation uID="Aircraft_fuselage_section_29_Transf_Tra">										
+										<x>0.0</x>										
+										<y>0.0</y>										
+										<z>0.0</z>										
+									</translation>									
+								</transformation>								
+								<elements>									
+									<element uID="Aircraft_fuselage_section_29_element">										
+										<name>Aircraft_fuselage_section_29_element</name>										
+										<description>Aircraft_fuselage_section_29_element</description>										
+										<profileUID>fuselageCircle</profileUID>										
+										<transformation uID="Aircraft_fuselage_section_29_element_Transf">											
+											<scaling uID="Aircraft_fuselage_section_29_element_Transf_Sca">												
+												<x>0.13999999999999974</x>												
+												<y>0.13999999999999974</y>												
+												<z>0.13999999999999974</z>												
+											</scaling>											
+											<rotation uID="Aircraft_fuselage_section_29_element_Transf_Rot">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.0</z>												
+											</rotation>											
+											<translation uID="Aircraft_fuselage_section_29_element_Transf_Tra">												
+												<x>0.0</x>												
+												<y>0.0</y>												
+												<z>0.525</z>												
+											</translation>											
+										</transformation>										
+									</element>									
+								</elements>								
+							</section>							
+						</sections>						
+						<positionings>							
+							<positioning uID="Aircraft_fuselage_position_1">								
+								<name>Aircraft_fuselage_position_1</name>								
+								<description>Aircraft_fuselage_position_1</description>								
+								<length>0.0</length>								
+								<sweepAngle>90.0</sweepAngle>								
+								<dihedralAngle>0.0</dihedralAngle>								
+								<fromSectionUID/>								
+								<toSectionUID>Aircraft_fuselage_section_1</toSectionUID>								
+							</positioning>							
+							<positioning uID="Aircraft_fuselage_position_2">								
+								<name>Aircraft_fuselage_position_2</name>								
+								<description>Aircraft_fuselage_position_2</description>								
+								<length>0.46153846153846156</length>								
+								<sweepAngle>90</sweepAngle>								
+								<dihedralAngle>0.0</dihedralAngle>								
+								<fromSectionUID>Aircraft_fuselage_section_1</fromSectionUID>								
+								<toSectionUID>Aircraft_fuselage_section_2</toSectionUID>								
+							</positioning>							
+							<positioning uID="Aircraft_fuselage_position_3">								
+								<name>Aircraft_fuselage_position_3</name>								
+								<description>Aircraft_fuselage_position_3</description>								
+								<length>0.46153846153846145</length>								
+								<sweepAngle>90</sweepAngle>								
+								<dihedralAngle>0.0</dihedralAngle>								
+								<fromSectionUID>Aircraft_fuselage_section_2</fromSectionUID>								
+								<toSectionUID>Aircraft_fuselage_section_3</toSectionUID>								
+							</positioning>							
+							<positioning uID="Aircraft_fuselage_position_4">								
+								<name>Aircraft_fuselage_position_4</name>								
+								<description>Aircraft_fuselage_position_4</description>								
+								<length>0.4615384615384617</length>								
+								<sweepAngle>90</sweepAngle>								
+								<dihedralAngle>0.0</dihedralAngle>								
+								<fromSectionUID>Aircraft_fuselage_section_3</fromSectionUID>								
+								<toSectionUID>Aircraft_fuselage_section_4</toSectionUID>								
+							</positioning>							
+							<positioning uID="Aircraft_fuselage_position_5">								
+								<name>Aircraft_fuselage_position_5</name>								
+								<description>Aircraft_fuselage_position_5</description>								
+								<length>0.4615384615384617</length>								
+								<sweepAngle>90</sweepAngle>								
+								<dihedralAngle>0.0</dihedralAngle>								
+								<fromSectionUID>Aircraft_fuselage_section_4</fromSectionUID>								
+								<toSectionUID>Aircraft_fuselage_section_5</toSectionUID>								
+							</positioning>							
+							<positioning uID="Aircraft_fuselage_position_6">								
+								<name>Aircraft_fuselage_position_6</name>								
+								<description>Aircraft_fuselage_position_6</description>								
+								<length>0.46153846153846123</length>								
+								<sweepAngle>90</sweepAngle>								
+								<dihedralAngle>0.0</dihedralAngle>								
+								<fromSectionUID>Aircraft_fuselage_section_5</fromSectionUID>								
+								<toSectionUID>Aircraft_fuselage_section_6</toSectionUID>								
+							</positioning>							
+							<positioning uID="Aircraft_fuselage_position_7">								
+								<name>Aircraft_fuselage_position_7</name>								
+								<description>Aircraft_fuselage_position_7</description>								
+								<length>0.4615384615384621</length>								
+								<sweepAngle>90</sweepAngle>								
+								<dihedralAngle>0.0</dihedralAngle>								
+								<fromSectionUID>Aircraft_fuselage_section_6</fromSectionUID>								
+								<toSectionUID>Aircraft_fuselage_section_7</toSectionUID>								
+							</positioning>							
+							<positioning uID="Aircraft_fuselage_position_8">								
+								<name>Aircraft_fuselage_position_8</name>								
+								<description>Aircraft_fuselage_position_8</description>								
+								<length>0.46153846153846123</length>								
+								<sweepAngle>90</sweepAngle>								
+								<dihedralAngle>0.0</dihedralAngle>								
+								<fromSectionUID>Aircraft_fuselage_section_7</fromSectionUID>								
+								<toSectionUID>Aircraft_fuselage_section_8</toSectionUID>								
+							</positioning>							
+							<positioning uID="Aircraft_fuselage_position_9">								
+								<name>Aircraft_fuselage_position_9</name>								
+								<description>Aircraft_fuselage_position_9</description>								
+								<length>0.4615384615384608</length>								
+								<sweepAngle>90</sweepAngle>								
+								<dihedralAngle>0.0</dihedralAngle>								
+								<fromSectionUID>Aircraft_fuselage_section_8</fromSectionUID>								
+								<toSectionUID>Aircraft_fuselage_section_9</toSectionUID>								
+							</positioning>							
+							<positioning uID="Aircraft_fuselage_position_10">								
+								<name>Aircraft_fuselage_position_10</name>								
+								<description>Aircraft_fuselage_position_10</description>								
+								<length>0.46153846153846256</length>								
+								<sweepAngle>90</sweepAngle>								
+								<dihedralAngle>0.0</dihedralAngle>								
+								<fromSectionUID>Aircraft_fuselage_section_9</fromSectionUID>								
+								<toSectionUID>Aircraft_fuselage_section_10</toSectionUID>								
+							</positioning>							
+							<positioning uID="Aircraft_fuselage_position_11">								
+								<name>Aircraft_fuselage_position_11</name>								
+								<description>Aircraft_fuselage_position_11</description>								
+								<length>0.4615384615384617</length>								
+								<sweepAngle>90</sweepAngle>								
+								<dihedralAngle>0.0</dihedralAngle>								
+								<fromSectionUID>Aircraft_fuselage_section_10</fromSectionUID>								
+								<toSectionUID>Aircraft_fuselage_section_11</toSectionUID>								
+							</positioning>							
+							<positioning uID="Aircraft_fuselage_position_12">								
+								<name>Aircraft_fuselage_position_12</name>								
+								<description>Aircraft_fuselage_position_12</description>								
+								<length>0.4615384615384608</length>								
+								<sweepAngle>90</sweepAngle>								
+								<dihedralAngle>0.0</dihedralAngle>								
+								<fromSectionUID>Aircraft_fuselage_section_11</fromSectionUID>								
+								<toSectionUID>Aircraft_fuselage_section_12</toSectionUID>								
+							</positioning>							
+							<positioning uID="Aircraft_fuselage_position_13">								
+								<name>Aircraft_fuselage_position_13</name>								
+								<description>Aircraft_fuselage_position_13</description>								
+								<length>0.4615384615384617</length>								
+								<sweepAngle>90</sweepAngle>								
+								<dihedralAngle>0.0</dihedralAngle>								
+								<fromSectionUID>Aircraft_fuselage_section_12</fromSectionUID>								
+								<toSectionUID>Aircraft_fuselage_section_13</toSectionUID>								
+							</positioning>							
+							<positioning uID="Aircraft_fuselage_position_14">								
+								<name>Aircraft_fuselage_position_14</name>								
+								<description>Aircraft_fuselage_position_14</description>								
+								<length>25</length>								
+								<sweepAngle>90</sweepAngle>								
+								<dihedralAngle>0.0</dihedralAngle>								
+								<fromSectionUID>Aircraft_fuselage_section_13</fromSectionUID>								
+								<toSectionUID>Aircraft_fuselage_section_14</toSectionUID>								
+							</positioning>							
+							<positioning uID="Aircraft_fuselage_position_15">								
+								<name>Aircraft_fuselage_position_15</name>								
+								<description>Aircraft_fuselage_position_15</description>								
+								<length>0.6576923076923078</length>								
+								<sweepAngle>90</sweepAngle>								
+								<dihedralAngle>0.0</dihedralAngle>								
+								<fromSectionUID>Aircraft_fuselage_section_14</fromSectionUID>								
+								<toSectionUID>Aircraft_fuselage_section_15</toSectionUID>								
+							</positioning>							
+							<positioning uID="Aircraft_fuselage_position_16">								
+								<name>Aircraft_fuselage_position_16</name>								
+								<description>Aircraft_fuselage_position_16</description>								
+								<length>0.6576923076923078</length>								
+								<sweepAngle>90</sweepAngle>								
+								<dihedralAngle>0.0</dihedralAngle>								
+								<fromSectionUID>Aircraft_fuselage_section_15</fromSectionUID>								
+								<toSectionUID>Aircraft_fuselage_section_16</toSectionUID>								
+							</positioning>							
+							<positioning uID="Aircraft_fuselage_position_17">								
+								<name>Aircraft_fuselage_position_17</name>								
+								<description>Aircraft_fuselage_position_17</description>								
+								<length>0.6576923076923078</length>								
+								<sweepAngle>90</sweepAngle>								
+								<dihedralAngle>0.0</dihedralAngle>								
+								<fromSectionUID>Aircraft_fuselage_section_16</fromSectionUID>								
+								<toSectionUID>Aircraft_fuselage_section_17</toSectionUID>								
+							</positioning>							
+							<positioning uID="Aircraft_fuselage_position_18">								
+								<name>Aircraft_fuselage_position_18</name>								
+								<description>Aircraft_fuselage_position_18</description>								
+								<length>0.6576923076923076</length>								
+								<sweepAngle>90</sweepAngle>								
+								<dihedralAngle>0.0</dihedralAngle>								
+								<fromSectionUID>Aircraft_fuselage_section_17</fromSectionUID>								
+								<toSectionUID>Aircraft_fuselage_section_18</toSectionUID>								
+							</positioning>							
+							<positioning uID="Aircraft_fuselage_position_19">								
+								<name>Aircraft_fuselage_position_19</name>								
+								<description>Aircraft_fuselage_position_19</description>								
+								<length>0.657692307692308</length>								
+								<sweepAngle>90</sweepAngle>								
+								<dihedralAngle>0.0</dihedralAngle>								
+								<fromSectionUID>Aircraft_fuselage_section_18</fromSectionUID>								
+								<toSectionUID>Aircraft_fuselage_section_19</toSectionUID>								
+							</positioning>							
+							<positioning uID="Aircraft_fuselage_position_20">								
+								<name>Aircraft_fuselage_position_20</name>								
+								<description>Aircraft_fuselage_position_20</description>								
+								<length>0.6576923076923085</length>								
+								<sweepAngle>90</sweepAngle>								
+								<dihedralAngle>0.0</dihedralAngle>								
+								<fromSectionUID>Aircraft_fuselage_section_19</fromSectionUID>								
+								<toSectionUID>Aircraft_fuselage_section_20</toSectionUID>								
+							</positioning>							
+							<positioning uID="Aircraft_fuselage_position_21">								
+								<name>Aircraft_fuselage_position_21</name>								
+								<description>Aircraft_fuselage_position_21</description>								
+								<length>0.6576923076923071</length>								
+								<sweepAngle>90</sweepAngle>								
+								<dihedralAngle>0.0</dihedralAngle>								
+								<fromSectionUID>Aircraft_fuselage_section_20</fromSectionUID>								
+								<toSectionUID>Aircraft_fuselage_section_21</toSectionUID>								
+							</positioning>							
+							<positioning uID="Aircraft_fuselage_position_22">								
+								<name>Aircraft_fuselage_position_22</name>								
+								<description>Aircraft_fuselage_position_22</description>								
+								<length>0.6576923076923071</length>								
+								<sweepAngle>90</sweepAngle>								
+								<dihedralAngle>0.0</dihedralAngle>								
+								<fromSectionUID>Aircraft_fuselage_section_21</fromSectionUID>								
+								<toSectionUID>Aircraft_fuselage_section_22</toSectionUID>								
+							</positioning>							
+							<positioning uID="Aircraft_fuselage_position_23">								
+								<name>Aircraft_fuselage_position_23</name>								
+								<description>Aircraft_fuselage_position_23</description>								
+								<length>0.657692307692308</length>								
+								<sweepAngle>90</sweepAngle>								
+								<dihedralAngle>0.0</dihedralAngle>								
+								<fromSectionUID>Aircraft_fuselage_section_22</fromSectionUID>								
+								<toSectionUID>Aircraft_fuselage_section_23</toSectionUID>								
+							</positioning>							
+							<positioning uID="Aircraft_fuselage_position_24">								
+								<name>Aircraft_fuselage_position_24</name>								
+								<description>Aircraft_fuselage_position_24</description>								
+								<length>0.6576923076923089</length>								
+								<sweepAngle>90</sweepAngle>								
+								<dihedralAngle>0.0</dihedralAngle>								
+								<fromSectionUID>Aircraft_fuselage_section_23</fromSectionUID>								
+								<toSectionUID>Aircraft_fuselage_section_24</toSectionUID>								
+							</positioning>							
+							<positioning uID="Aircraft_fuselage_position_25">								
+								<name>Aircraft_fuselage_position_25</name>								
+								<description>Aircraft_fuselage_position_25</description>								
+								<length>0.6576923076923071</length>								
+								<sweepAngle>90</sweepAngle>								
+								<dihedralAngle>0.0</dihedralAngle>								
+								<fromSectionUID>Aircraft_fuselage_section_24</fromSectionUID>								
+								<toSectionUID>Aircraft_fuselage_section_25</toSectionUID>								
+							</positioning>							
+							<positioning uID="Aircraft_fuselage_position_26">								
+								<name>Aircraft_fuselage_position_26</name>								
+								<description>Aircraft_fuselage_position_26</description>								
+								<length>0.6576923076923071</length>								
+								<sweepAngle>90</sweepAngle>								
+								<dihedralAngle>0.0</dihedralAngle>								
+								<fromSectionUID>Aircraft_fuselage_section_25</fromSectionUID>								
+								<toSectionUID>Aircraft_fuselage_section_26</toSectionUID>								
+							</positioning>							
+						</positionings>						
+						<segments>							
+							<segment uID="Aircraft_fuselage_segment_1">								
+								<name>Aircraft_fuselage_segment_1</name>								
+								<description>Aircraft_fuselage_segment_1</description>								
+								<fromElementUID>Aircraft_fuselage_section_1_element</fromElementUID>								
+								<toElementUID>Aircraft_fuselage_section_2_element</toElementUID>								
+							</segment>							
+							<segment uID="Aircraft_fuselage_segment_2">								
+								<name>Aircraft_fuselage_segment_2</name>								
+								<description>Aircraft_fuselage_segment_2</description>								
+								<fromElementUID>Aircraft_fuselage_section_2_element</fromElementUID>								
+								<toElementUID>Aircraft_fuselage_section_3_element</toElementUID>								
+							</segment>							
+							<segment uID="Aircraft_fuselage_segment_3">								
+								<name>Aircraft_fuselage_segment_3</name>								
+								<description>Aircraft_fuselage_segment_3</description>								
+								<fromElementUID>Aircraft_fuselage_section_3_element</fromElementUID>								
+								<toElementUID>Aircraft_fuselage_section_4_element</toElementUID>								
+							</segment>							
+							<segment uID="Aircraft_fuselage_segment_4">								
+								<name>Aircraft_fuselage_segment_4</name>								
+								<description>Aircraft_fuselage_segment_4</description>								
+								<fromElementUID>Aircraft_fuselage_section_4_element</fromElementUID>								
+								<toElementUID>Aircraft_fuselage_section_5_element</toElementUID>								
+							</segment>							
+							<segment uID="Aircraft_fuselage_segment_5">								
+								<name>Aircraft_fuselage_segment_5</name>								
+								<description>Aircraft_fuselage_segment_5</description>								
+								<fromElementUID>Aircraft_fuselage_section_5_element</fromElementUID>								
+								<toElementUID>Aircraft_fuselage_section_6_element</toElementUID>								
+							</segment>							
+							<segment uID="Aircraft_fuselage_segment_6">								
+								<name>Aircraft_fuselage_segment_6</name>								
+								<description>Aircraft_fuselage_segment_6</description>								
+								<fromElementUID>Aircraft_fuselage_section_6_element</fromElementUID>								
+								<toElementUID>Aircraft_fuselage_section_7_element</toElementUID>								
+							</segment>							
+							<segment uID="Aircraft_fuselage_segment_7">								
+								<name>Aircraft_fuselage_segment_7</name>								
+								<description>Aircraft_fuselage_segment_7</description>								
+								<fromElementUID>Aircraft_fuselage_section_7_element</fromElementUID>								
+								<toElementUID>Aircraft_fuselage_section_8_element</toElementUID>								
+							</segment>							
+							<segment uID="Aircraft_fuselage_segment_8">								
+								<name>Aircraft_fuselage_segment_8</name>								
+								<description>Aircraft_fuselage_segment_8</description>								
+								<fromElementUID>Aircraft_fuselage_section_8_element</fromElementUID>								
+								<toElementUID>Aircraft_fuselage_section_9_element</toElementUID>								
+							</segment>							
+							<segment uID="Aircraft_fuselage_segment_9">								
+								<name>Aircraft_fuselage_segment_9</name>								
+								<description>Aircraft_fuselage_segment_9</description>								
+								<fromElementUID>Aircraft_fuselage_section_9_element</fromElementUID>								
+								<toElementUID>Aircraft_fuselage_section_10_element</toElementUID>								
+							</segment>							
+							<segment uID="Aircraft_fuselage_segment_10">								
+								<name>Aircraft_fuselage_segment_10</name>								
+								<description>Aircraft_fuselage_segment_10</description>								
+								<fromElementUID>Aircraft_fuselage_section_10_element</fromElementUID>								
+								<toElementUID>Aircraft_fuselage_section_11_element</toElementUID>								
+							</segment>							
+							<segment uID="Aircraft_fuselage_segment_11">								
+								<name>Aircraft_fuselage_segment_11</name>								
+								<description>Aircraft_fuselage_segment_11</description>								
+								<fromElementUID>Aircraft_fuselage_section_11_element</fromElementUID>								
+								<toElementUID>Aircraft_fuselage_section_12_element</toElementUID>								
+							</segment>							
+							<segment uID="Aircraft_fuselage_segment_12">								
+								<name>Aircraft_fuselage_segment_12</name>								
+								<description>Aircraft_fuselage_segment_12</description>								
+								<fromElementUID>Aircraft_fuselage_section_12_element</fromElementUID>								
+								<toElementUID>Aircraft_fuselage_section_13_element</toElementUID>								
+							</segment>							
+							<segment uID="Aircraft_fuselage_segment_13">								
+								<name>Aircraft_fuselage_segment_13</name>								
+								<description>Aircraft_fuselage_segment_13</description>								
+								<fromElementUID>Aircraft_fuselage_section_13_element</fromElementUID>								
+								<toElementUID>Aircraft_fuselage_section_14_element</toElementUID>								
+							</segment>							
+							<segment uID="Aircraft_fuselage_segment_14">								
+								<name>Aircraft_fuselage_segment_14</name>								
+								<description>Aircraft_fuselage_segment_14</description>								
+								<fromElementUID>Aircraft_fuselage_section_14_element</fromElementUID>								
+								<toElementUID>Aircraft_fuselage_section_15_element</toElementUID>								
+							</segment>							
+							<segment uID="Aircraft_fuselage_segment_15">								
+								<name>Aircraft_fuselage_segment_15</name>								
+								<description>Aircraft_fuselage_segment_15</description>								
+								<fromElementUID>Aircraft_fuselage_section_15_element</fromElementUID>								
+								<toElementUID>Aircraft_fuselage_section_16_element</toElementUID>								
+							</segment>							
+							<segment uID="Aircraft_fuselage_segment_16">								
+								<name>Aircraft_fuselage_segment_16</name>								
+								<description>Aircraft_fuselage_segment_16</description>								
+								<fromElementUID>Aircraft_fuselage_section_16_element</fromElementUID>								
+								<toElementUID>Aircraft_fuselage_section_17_element</toElementUID>								
+							</segment>							
+							<segment uID="Aircraft_fuselage_segment_17">								
+								<name>Aircraft_fuselage_segment_17</name>								
+								<description>Aircraft_fuselage_segment_17</description>								
+								<fromElementUID>Aircraft_fuselage_section_17_element</fromElementUID>								
+								<toElementUID>Aircraft_fuselage_section_18_element</toElementUID>								
+							</segment>							
+							<segment uID="Aircraft_fuselage_segment_18">								
+								<name>Aircraft_fuselage_segment_18</name>								
+								<description>Aircraft_fuselage_segment_18</description>								
+								<fromElementUID>Aircraft_fuselage_section_18_element</fromElementUID>								
+								<toElementUID>Aircraft_fuselage_section_19_element</toElementUID>								
+							</segment>							
+							<segment uID="Aircraft_fuselage_segment_19">								
+								<name>Aircraft_fuselage_segment_19</name>								
+								<description>Aircraft_fuselage_segment_19</description>								
+								<fromElementUID>Aircraft_fuselage_section_19_element</fromElementUID>								
+								<toElementUID>Aircraft_fuselage_section_20_element</toElementUID>								
+							</segment>							
+							<segment uID="Aircraft_fuselage_segment_20">								
+								<name>Aircraft_fuselage_segment_20</name>								
+								<description>Aircraft_fuselage_segment_20</description>								
+								<fromElementUID>Aircraft_fuselage_section_20_element</fromElementUID>								
+								<toElementUID>Aircraft_fuselage_section_21_element</toElementUID>								
+							</segment>							
+							<segment uID="Aircraft_fuselage_segment_21">								
+								<name>Aircraft_fuselage_segment_21</name>								
+								<description>Aircraft_fuselage_segment_21</description>								
+								<fromElementUID>Aircraft_fuselage_section_21_element</fromElementUID>								
+								<toElementUID>Aircraft_fuselage_section_22_element</toElementUID>								
+							</segment>							
+							<segment uID="Aircraft_fuselage_segment_22">								
+								<name>Aircraft_fuselage_segment_22</name>								
+								<description>Aircraft_fuselage_segment_22</description>								
+								<fromElementUID>Aircraft_fuselage_section_22_element</fromElementUID>								
+								<toElementUID>Aircraft_fuselage_section_23_element</toElementUID>								
+							</segment>							
+							<segment uID="Aircraft_fuselage_segment_23">								
+								<name>Aircraft_fuselage_segment_23</name>								
+								<description>Aircraft_fuselage_segment_23</description>								
+								<fromElementUID>Aircraft_fuselage_section_23_element</fromElementUID>								
+								<toElementUID>Aircraft_fuselage_section_24_element</toElementUID>								
+							</segment>							
+							<segment uID="Aircraft_fuselage_segment_24">								
+								<name>Aircraft_fuselage_segment_24</name>								
+								<description>Aircraft_fuselage_segment_24</description>								
+								<fromElementUID>Aircraft_fuselage_section_24_element</fromElementUID>								
+								<toElementUID>Aircraft_fuselage_section_25_element</toElementUID>								
+							</segment>							
+							<segment uID="Aircraft_fuselage_segment_25">								
+								<name>Aircraft_fuselage_segment_25</name>								
+								<description>Aircraft_fuselage_segment_25</description>								
+								<fromElementUID>Aircraft_fuselage_section_25_element</fromElementUID>								
+								<toElementUID>Aircraft_fuselage_section_26_element</toElementUID>								
+							</segment>							
+						</segments>						
+					</fuselage>					
+				</fuselages>				
+			</model>			
+		</aircraft>		
+		<profiles>			
+			<wingAirfoils>				
+				<wingAirfoil uID="HighLift">					
+					<name>NACA0009 Airfoil</name>					
+					<description>NACA 4-digit symmetrical airfoil with a thickness of 9percent</description>					
+					<pointList>						
+						<x mapType="vector">1.0;0.9822825000000001;0.9729935;0.9628045;0.9517365;0.9398115;0.9270525;0.913486;0.8991345;0.8866350000000001;0.8776765;0.8646975;0.8513195;0.837666;0.823134;0.8137770000000001;0.8025760000000001;0.791255;0.7798430000000001;0.768365;0.7568495;0.7454085;0.735302;0.719635;0.6993585;0.6780955;0.656511;0.634645;0.6125425;0.593635;0.5902430000000001;0.567792;0.5452325;0.5226105;0.49996949999999996;0.47735200000000005;0.45480299999999996;0.43236850000000004;0.410088;0.3880095;0.366171;0.344621;0.323398;0.30254549999999997;0.2820995;0.2621055;0.242601;0.23655900000000002;0.22362100000000001;0.208227;0.199159;0.1851085;0.1698385;0.15404849999999998;0.1382525;0.1231865;0.1139125;0.10498099999999999;0.092403;0.082233;0.0703545;0.059342;0.049210500000000004;0.039984;0.0316795;0.024315;0.017902;0.0124545;0.007984;0.004496;0.001999;0.0005005;0.0;0.0;0.0005005;0.001999;0.004496;0.007984;0.0124545;0.017902;0.024315;0.0316795;0.039984;0.049210500000000004;0.059342;0.0703545;0.082233;0.092403;0.10498099999999999;0.1139125;0.1231865;0.1382525;0.15404849999999998;0.1698385;0.1851085;0.199159;0.208227;0.22362100000000001;0.23655900000000002;0.242601;0.2621055;0.2820995;0.30254549999999997;0.323398;0.344621;0.366171;0.3880095;0.410088;0.43236850000000004;0.45480299999999996;0.47735200000000005;0.49996949999999996;0.5226105;0.5452325;0.567792;0.5902430000000001;0.593635;0.6125425;0.634645;0.656511;0.6780955;0.6993585;0.719635;0.735302;0.7454085;0.7568495;0.768365;0.7798430000000001;0.791255;0.8025760000000001;0.8137770000000001;0.823134;0.837666;0.8513195;0.8646975;0.8776765;0.8866350000000001;0.8991345;0.913486;0.9270525;0.9398115;0.9517365;0.9628045;0.9729935;0.9822825000000001;1.0</x>						
+						<y mapType="vector">0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0</y>						
+						<z mapType="vector">0.0;-0.00025216;0.00060898;0.00138699;0.00203602;0.00248921;0.00268696;0.00250521;0.00194202;0.00125564;0.00075888;-0.00085973;-0.00279503;-0.00500382;-0.00757032;-0.00906936;-0.01089223;-0.01274573;-0.01473807;-0.01659335;-0.0184127;-0.02021402;-0.02181012;-0.02427428;-0.02732913;-0.03034767;-0.03320442;-0.03586948;-0.03832027;-0.04021493;-0.04055467;-0.04257891;-0.04438468;-0.04595561;-0.04729463;-0.04839662;-0.0492668;-0.04990513;-0.05032185;-0.05053347;-0.05055442;-0.05040634;-0.05010158;-0.04965668;-0.049076800000000004;-0.04836602;-0.04752739;-0.04722349;-0.04656933;-0.0456947;-0.04518973;-0.04427363;-0.04315498;-0.04185064;-0.04039355;-0.03882869;-0.03762533;-0.03641335;-0.034682300000000006;-0.03315345;-0.0311307;-0.028997900000000004;-0.0267608;-0.02441994;-0.02195305;-0.01938286;-0.01680185;-0.01428682;-0.01181107;-0.00919229;-0.00628226;-0.00313607;0.0;0.0;0.00319001;0.00670008;0.01020637;0.01344003;0.01640683;0.01916673;0.0217482;0.02424422;0.02673389;0.02920016;0.03159619;0.03389357;0.03610002;0.03780606;0.03975322;0.04102825;0.04229475;0.04416119;0.04593462;0.0475477;0.04895743;0.05019018;0.05088717;0.05204336;0.0529274;0.05333798;0.05453871;0.05563333;0.05662084;0.05749084;0.0582382;0.05886091;0.05935069;0.05970031;0.05990362;0.05995646;0.05985268;0.0595871;0.05915765;0.05855614;0.05777734;0.05681717;0.05664345;0.05567663;0.054361900000000005;0.05287709;0.05123151;0.04942624;0.04749832;0.04584455;0.04472142;0.043424300000000006;0.04208189;0.04070307;0.03927047;0.03780277;0.03627755;0.03500061;0.0326018;0.03023123;0.02694797;0.02498744;0.023049;0.02040998;0.01739505;0.01454211;0.01194713;0.00961317;0.0075065;0.00561631;0.0039361;0.0</z>						
+					</pointList>					
+				</wingAirfoil>				
+				<wingAirfoil uID="NACA">					
+					<name>NACA0009 Airfoil</name>					
+					<description>NACA 4-digit symmetrical airfoil with a thickness of 9percent</description>					
+					<pointList>						
+						<x mapType="vector">1.0;0.99975328;0.99901336;0.99778098;0.99605735;0.99384417;0.99114363;0.98795838;0.98429158;0.98014684;0.97552826;0.97044038;0.96488824;0.95887731;0.95241353;0.94550326;0.93815334;0.93037101;0.92216396;0.91354029;0.9045085;0.89507751;0.88525662;0.87505553;0.86448431;0.85355339;0.84227355;0.83065593;0.81871199;0.80645353;0.79389263;0.78104169;0.7679134;0.75452071;0.74087684;0.72699525;0.71288965;0.69857395;0.68406228;0.66936896;0.6545085;0.63949555;0.62434494;0.60907162;0.59369066;0.57821723;0.56266662;0.54705416;0.53139526;0.51570538;0.5;0.48429462;0.46860474;0.45294584;0.43733338;0.42178277;0.40630934;0.39092838;0.37565506;0.36050445;0.3454915;0.33063104;0.31593772;0.30142605;0.28711035;0.27300475;0.25912316;0.24547929;0.2320866;0.21895831;0.20610737;0.19354647;0.18128801;0.16934407;0.15772645;0.14644661;0.13551569;0.12494447;0.11474338;0.10492249;0.0954915;0.08645971;0.07783604;0.06962899;0.06184666;0.05449674;0.04758647;0.04112269;0.03511176;0.02955962;0.02447174;0.01985316;0.01570842;0.01204162;0.00885637;0.00615583;0.00394265;0.00221902;0.00098664;0.00024672;0.0;0.0;0.00024672;0.00098664;0.00221902;0.00394265;0.00615583;0.00885637;0.01204162;0.01570842;0.01985316;0.02447174;0.02955962;0.03511176;0.04112269;0.04758647;0.05449674;0.06184666;0.06962899;0.07783604;0.08645971;0.0954915;0.10492249;0.11474338;0.12494447;0.13551569;0.14644661;0.15772645;0.16934407;0.18128801;0.19354647;0.20610737;0.21895831;0.2320866;0.24547929;0.25912316;0.27300475;0.28711035;0.30142605;0.31593772;0.33063104;0.3454915;0.36050445;0.37565506;0.39092838;0.40630934;0.42178277;0.43733338;0.45294584;0.46860474;0.48429462;0.5;0.51570538;0.53139526;0.54705416;0.56266662;0.57821723;0.59369066;0.60907162;0.62434494;0.63949555;0.6545085;0.66936896;0.68406228;0.69857395;0.71288965;0.72699525;0.74087684;0.75452071;0.7679134;0.78104169;0.79389263;0.80645353;0.81871199;0.83065593;0.84227355;0.85355339;0.86448431;0.87505553;0.88525662;0.89507751;0.9045085;0.91354029;0.92216396;0.93037101;0.93815334;0.94550326;0.95241353;0.95887731;0.96488824;0.97044038;0.97552826;0.98014684;0.98429158;0.98795838;0.99114363;0.99384417;0.99605735;0.99778098;0.99901336;0.99975328;1.0</x>						
+						<y mapType="vector">0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0</y>						
+						<z mapType="vector">0.0;-3.492e-05;-0.00013959;-0.00031372;-0.00055681;-0.0008682000000000001;-0.00124702;-0.00169224;-0.00220264;-0.00277684;-0.00341331;-0.00411038;-0.00486623;-0.00567891;-0.00654638;-0.00746647;-0.00843693;-0.00945542;-0.01051952;-0.01162677;-0.01277464;-0.01396055;-0.01518188;-0.01643599;-0.01772019;-0.01903179;-0.02036807;-0.02172629;-0.02310368;-0.02449747;-0.02590486;-0.02732304;-0.02874916;-0.03018037;-0.03161375;-0.03304638;-0.03447529;-0.03589746;-0.03730984;-0.03870931;-0.04009273;-0.04145686;-0.04279845;-0.04411417;-0.04540064;-0.04665444;-0.04787208;-0.04905004;-0.05018478;-0.05127272;-0.05231025;-0.05329379;-0.05421975;-0.05508455;-0.05588468;-0.05661666;-0.05727711;-0.05786273;-0.05837033;-0.05879685;-0.0591394;-0.05939525;-0.05956186;-0.0596369;-0.05961828;-0.05950414;-0.05929288;-0.05898318;-0.05857399;-0.05806456;-0.05745443;-0.05674347;-0.05593181;-0.05501991;-0.05400853;-0.05289871;-0.05169178;-0.05038933;-0.04899323;-0.04750555;-0.04592861;-0.04426491;-0.04251711;-0.04068804;-0.03878062;-0.03679788;-0.0347429;-0.03261878;-0.03042863;-0.02817553;-0.02586248;-0.02349241;-0.02106812;-0.01859226;-0.01606733;-0.01349561;-0.0108792;-0.00821995;-0.00551947;-0.00277913;0.0;0.0;0.00277913;0.00551947;0.00821995;0.0108792;0.01349561;0.01606733;0.01859226;0.02106812;0.02349241;0.02586248;0.02817553;0.03042863;0.03261878;0.0347429;0.03679788;0.03878062;0.04068804;0.04251711;0.04426491;0.04592861;0.04750555;0.04899323;0.05038933;0.05169178;0.05289871;0.05400853;0.05501991;0.05593181;0.05674347;0.05745444;0.05806456;0.05857399;0.05898318;0.05929288;0.05950414;0.05961828;0.0596369;0.05956186;0.05939525;0.0591394;0.05879685;0.05837033;0.05786273;0.05727711;0.05661666;0.05588468;0.05508455;0.05421975;0.05329379;0.05231025;0.05127272;0.05018478;0.04905004;0.04787208;0.04665444;0.04540065;0.04411417;0.04279845;0.04145686;0.04009273;0.03870931;0.03730984;0.03589746;0.03447529;0.03304638;0.03161375;0.03018037;0.02874916;0.02732304;0.02590486;0.02449747;0.02310368;0.02172629;0.02036807;0.01903179;0.01772019;0.01643599;0.01518188;0.01396055;0.01277464;0.01162677;0.01051952;0.00945542;0.00843693;0.00746647;0.00654638;0.00567891;0.00486623;0.00411038;0.00341331;0.00277684;0.00220264;0.00169224;0.00124702;0.0008682000000000001;0.00055681;0.00031372;0.00013959;3.492e-05;0.0</z>						
+					</pointList>					
+				</wingAirfoil>				
+			</wingAirfoils>			
+			<fuselageProfiles>				
+				<fuselageProfile uID="fuselageCircle">					
+					<name>Circle</name>					
+					<description>Profile build up from set of Points on Circle where may Dimensions are 1..-1</description>					
+					<pointList>						
+						<x mapType="vector">0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;</x>						
+						<y mapType="vector">0.5;0.49384;0.47553;0.4455;0.40451;0.35355;0.29389;0.227;0.15451;0.07822;0;-0.07822;-0.15451;-0.227;-0.29389;-0.35355;-0.40451;-0.4455;-0.47553;-0.49384;-0.5;-0.49384;-0.47553;-0.4455;-0.40451;-0.35355;-0.29389;-0.227;-0.15451;-0.07822;-0;0.07822;0.15451;0.227;0.29389;0.35355;0.40451;0.4455;0.47553;0.49384;0.5;</y>						
+						<z mapType="vector">0;0.07822;0.15451;0.227;0.29389;0.35355;0.40451;0.4455;0.47553;0.49384;0.5;0.49384;0.47553;0.4455;0.40451;0.35355;0.29389;0.227;0.15451;0.07822;0;-0.07822;-0.15451;-0.227;-0.29389;-0.35355;-0.40451;-0.4455;-0.47553;-0.49384;-0.5;-0.49384;-0.47553;-0.4455;-0.40451;-0.35355;-0.29389;-0.227;-0.15451;-0.07822;-0;</z>						
+					</pointList>					
+				</fuselageProfile>				
+			</fuselageProfiles>			
+		</profiles>		
+	</vehicles>	
+</cpacs>

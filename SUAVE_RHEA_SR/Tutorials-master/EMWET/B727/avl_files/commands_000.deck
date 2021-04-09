@@ -1,0 +1,11 @@
+CASE batch_000.run
+OPER
+1
+x
+st
+results_case_000_01.txt
+fs
+Trefftz_results_case_000_01.txt
+
+
+QUIT

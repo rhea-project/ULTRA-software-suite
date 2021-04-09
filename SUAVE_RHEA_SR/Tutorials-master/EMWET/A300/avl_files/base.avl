@@ -1,0 +1,44 @@
+base
+#Mach
+ 0.0
+#Iysym   IZsym   Zsym
+  0      0     0.0
+  
+#Sref    Cref    Bref 	<meters>
+260      4.235     44.84
+
+#Xref    Yref    Zref   <meters>
+0.0      0.0     0.0
+
+
+
+#---------------------------------------------------------
+SURFACE
+main_wing
+#Nchordwise  Cspace   Nspanwise  Sspace
+10         1.0         25      1.0
+
+YDUPLICATE
+0.0
+
+
+SECTION
+#Xle    Yle      Zle      Chord     Ainc  Nspanwise  Sspace
+13.61  0    -1.27    11.78    3.0     
+
+AFILE
+n23105.dat
+
+SECTION
+#Xle    Yle      Zle      Chord     Ainc  Nspanwise  Sspace
+19.088485913996  9.1922    -0.46578670713700143    6.31997    3.0     
+
+AFILE
+n23105.dat
+
+SECTION
+#Xle    Yle      Zle      Chord     Ainc  Nspanwise  Sspace
+27.653761570677716  22.42    1.1583829075744403    2.8625399999999996    3.0     
+
+AFILE
+n23105.dat

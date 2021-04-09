@@ -1,0 +1,66 @@
+base
+#Mach
+ 0.0
+#Iysym   IZsym   Zsym
+  0      0     0.0
+  
+#Sref    Cref    Bref 	<meters>
+15.71325      1.4284772727272728     11.0
+
+#Xref    Yref    Zref   <meters>
+0.0      0.0     0.0
+
+
+
+#---------------------------------------------------------
+SURFACE
+main_wing
+#Nchordwise  Cspace   Nspanwise  Sspace
+10         1.0         25      1.0
+
+YDUPLICATE
+0.0
+
+
+SECTION
+#Xle    Yle      Zle      Chord     Ainc  Nspanwise  Sspace
+0.0  0.0    0.0    3.4    -2.5     
+
+AFILE
+NACA65_410.dat
+
+SECTION
+#Xle    Yle      Zle      Chord     Ainc  Nspanwise  Sspace
+0.13434496220989378  0.6    0.010473038956930551    3.2    -2.0     
+
+AFILE
+NACA65_410.dat
+
+SECTION
+#Xle    Yle      Zle      Chord     Ainc  Nspanwise  Sspace
+0.6574307355194059  1.5    0.02618259739232638    1.55    0.0     
+
+AFILE
+NACA65_410.dat
+
+SECTION
+#Xle    Yle      Zle      Chord     Ainc  Nspanwise  Sspace
+2.733536805554137  5.335    0.09312277139204082    0.4    -7.0     
+
+AFILE
+NACA65_410.dat
+
+
+#---------------------------------------------------------
+SURFACE
+vertical_stabilizer
+#Nchordwise  Cspace   Nspanwise  Sspace
+10         1.0         25      -1.1 
+
+SECTION
+#Xle    Yle      Zle      Chord     Ainc  Nspanwise  Sspace
+2.2  0.0    0.0    1.5    0.0     
+
+SECTION
+#Xle    Yle      Zle      Chord     Ainc  Nspanwise  Sspace
+2.3819851171331012  0.0    0.5    1.0    0.0     

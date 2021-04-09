@@ -1,0 +1,9 @@
+Index in position 2 exceeds array bounds (must not exceed 1).
+
+Error in EMWET>airfoilfit (line 311)
+
+Error in EMWET>Geometry (line 211)
+
+Error in EMWET (line 39)
+
+MATLAB:badsubscript
