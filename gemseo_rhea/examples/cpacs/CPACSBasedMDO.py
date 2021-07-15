@@ -28,25 +28,29 @@ if __name__ == "__main__":
     cpacs_data = CPACSStructureData(input_cpacs_file)
 
     # select from generic XPath...
-    cpacs_data.select_input_from_xpath(xpath="./vehicles/aircraft/model/wings/wing[@uID='wing1']/"
-                                             +"positionings/positioning[@uID='pos3']/sweepAngle",
-                                       name="x1")
+    cpacs_data.select_variable_from_xpath(xpath="./vehicles/aircraft/model/"
+                                                "wings/wing[@uID='wing1']/"
+                                                +"positionings/positioning[@uID='pos3']/"
+                                                 "sweepAngle",
+                                          name="x1",
+                                          is_design_variable=True,
+                                          lower_bound=-2.,
+                                          upper_bound=2.)
     # ... or select from dedicated function
     # cpacs_data.select_sweep_angle_variable(name="x1",
     #                                        wing_ID="wing1",
     #                                        position_ID="pos3")
 
     # add a cpacs output
-    cpacs_data.select_output_from_xpath("./vehicles/aircraft/model/analyses/aeroelastics/myResponse", "y1")
+    cpacs_data.select_variable_from_xpath("./vehicles/aircraft/model/"
+                                          "analyses/aeroelastics/myResponse", "y1")
 
     # build design space from existing mapping
-    design_space = CPACSDesignSpace(cpacs_data.input_mapping)
-
-    # define variable data
-    design_space.set_variable_data("x1", l_b=-2., u_b=2., value=-1.)
+    design_space = CPACSDesignSpace(cpacs_data)
 
     # build discipline
-    test_disc = TestDiscipline(cpacs_data.input_mapping, cpacs_data.output_mapping)
+    test_disc = TestDiscipline(cpacs_data.get_sub_mapping(["x1"]),
+                               cpacs_data.get_sub_mapping(["y1"]))
 
     from gemseo.api import create_scenario
     sc = create_scenario(test_disc, "DisciplinaryOpt", "y1", design_space, scenario_type="MDO")

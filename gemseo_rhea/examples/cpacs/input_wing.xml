@@ -359,7 +359,7 @@
                         		<toSectionUID>wing1section3</toSectionUID>
                         		<length>3.</length>
                         		<dihedralAngle>0.</dihedralAngle>
-                        		<sweepAngle>10.</sweepAngle>
+                        		<sweepAngle>-1.</sweepAngle>
                         	</positioning>                                                	                       
                         </positionings> 
                                                

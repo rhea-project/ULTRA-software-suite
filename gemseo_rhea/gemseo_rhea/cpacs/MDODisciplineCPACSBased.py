@@ -31,14 +31,14 @@ class MDODisciplineCPACSBased(MDODiscipline):
         self.output_grammar.initialize_from_base_dict(output_cpacs_mapping.get_dict_with_values())
         self.default_inputs = input_cpacs_mapping.get_dict_with_values()
 
-        self._input_cpacs_mapping = input_cpacs_mapping
-        self._output_cpacs_mapping = output_cpacs_mapping
+        self.__input_cpacs_mapping = input_cpacs_mapping
+        self.__output_cpacs_mapping = output_cpacs_mapping
 
     def set_cpacs_values(self):
         """
 
         """
         for name, value in self.get_input_data().items():
-            self._input_cpacs_mapping[name] = value
+            self.__input_cpacs_mapping[name] = value
         for name, value in self.get_output_data().items():
-            self._output_cpacs_mapping[name] = value
+            self.__output_cpacs_mapping[name] = value

@@ -1,5 +1,6 @@
 
 import numpy as np
+import xml.etree.ElementTree
 
 
 class CPACSMapping:
@@ -10,7 +11,7 @@ class CPACSMapping:
 
     def __init__(self):
         # associate variables to xml tree elements (enables to set xml)
-        self._dict_elements = {}
+        self.__dict_elements = {}
 
     def _xml_get_text(self, name_var):
         """
@@ -22,7 +23,7 @@ class CPACSMapping:
         Returns:
             The string element text
         """
-        return self._dict_elements[name_var].text
+        return self.__dict_elements[name_var].text
 
     def _xml_set_text(self, name_var, text_value):
         """
@@ -32,33 +33,63 @@ class CPACSMapping:
             name_var (str): the variable name
             text_value (str): the text
         """
-        self._dict_elements[name_var].text = text_value
+        self.__dict_elements[name_var].text = text_value
 
-    def add_xml_element(self, var_name, element):
-        self._dict_elements.update({var_name : element})
-
-    def __getitem__(self, name_var):
-        """
-        Get values corresponding to the prescribed variable
+    def add_xml_element(self,
+                        var_name,  # type: str
+                        element  # type: xml.etree.ElementTree
+                        ):  # type: (...) -> None
+        """Add a xml element.
 
         Args:
-            name_var (str): the variable name
+            var_name: The name of the variable.
+            element: The xml element.
+        """
+        self.__dict_elements.update({var_name : element})
+
+    def get_xml_element(self,
+                        var_name  # type: str
+                        ):  # type: (...) -> xml.etree.ElementTree
+        """Return a xml element.
+
+        Args:
+            var_name: The nmae of the variable
 
         Returns:
-            numpy.array (float): required values
+            An xml element.
+        """
+        return self.__dict_elements[var_name]
+
+    def __getitem__(self,
+                    name_var  # type: str
+                    ):  # type (...) -> np.ndarray
+        """
+        Get the value corresponding to the variable.
+
+        Args:
+            name_var: The variable name.
+
+        Returns:
+            The value of the variable.
         """
         element_text = self._xml_get_text(name_var)
         values = np.array([float(x) for x in element_text.split(";")])
         return values
 
-    def __setitem__(self, name_var, values):
+    def __setitem__(self,
+                    name_var,  # type: str
+                    values  # type: Tuple[float, np.ndarray]
+                    ):  # type (...) -> None
         """
-        Set new values to variable
+        Set new value to the variable.
 
         Args:
-            name_var (str): the variable name
-            values (numpy.array): array of values
+            name_var: The name of the variable.
+            values: The values.
         """
+        if type(values) is float or type(values) is int:
+            values = np.array([values])
+
         if self.get_variable_size(name_var) != len(values):
             raise ValueError("Variable {}. Prescribed "
                              "values has the wrong size.".format(name_var))
@@ -87,14 +118,17 @@ class CPACSMapping:
             string: the string representation
         """
         loc_str = ""
-        for k, v in self._dict_elements.items():
-            loc_str += "- "+ k + "\n" + "\t" + v.text + "\n"
+        for k, v in self.__dict_elements.items():
+            loc_str += "- {}\n\t{}\n".format(k, v.text)
 
         return loc_str
 
     def get_dict_with_values(self):
         """"
-        Return a dictionnary of variables mapped with array of values
+        Return a dictionary of variables mapped with array of values
         """
-        return {name: self[name] for name in self._dict_elements.keys()}
+        return {name: self[name] for name in self.__dict_elements.keys()}
 
+    def keys(self):  # type: (...) -> List
+        """Get mapping keys."""
+        return list(self.__dict_elements.keys())

@@ -139,18 +139,20 @@ if __name__ == "__main__":
 
     # select variables from CPACS
     cpacs_data = CPACSStructureData("sharpy_wing.xml")
-    cpacs_data.select_input_from_xpath(xpath="./vehicles/aircraft/model/wings"
+    cpacs_data.select_variable_from_xpath(xpath="./vehicles/aircraft/model/wings"
                                              "/wing/positionings/"
                                              "positioning[@uID='pos3']/sweepAngle",
-                                       name="sweep")
+                                          name="sweep")
 
-    cpacs_data.select_output_from_xpath(xpath="./vehicles/aircraft/model/"
+    cpacs_data.select_variable_from_xpath(xpath="./vehicles/aircraft/model/"
                                               "analyses/aeroelastics/"
                                               "divergence/cases/case/ma",
-                                        name="mach_divergence")
+                                          name="mach_divergence")
 
     # build the discipline
-    sharpy_disc = SharpyDiscipline(cpacs_data.input_mapping, cpacs_data.output_mapping)
+    input_mapping = cpacs_data.get_sub_mapping(["sweep"])
+    output_mapping = cpacs_data.get_sub_mapping(["mach_divergence"])
+    sharpy_disc = SharpyDiscipline(input_mapping, output_mapping)
 
     # execute the discipline
     sharpy_disc.execute({"sweep": np.array([35])})

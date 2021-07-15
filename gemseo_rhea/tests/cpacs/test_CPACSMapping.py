@@ -75,7 +75,7 @@ def test_set_values_with_good_size_3():
     new_values = np.array([11, 22, 33])
     cpacs[name_var] = new_values
 
-    new_text = cpacs._dict_elements[name_var].text
+    new_text = cpacs._CPACSMapping__dict_elements[name_var].text
 
     assert new_text == "11;22;33"
 
@@ -92,7 +92,7 @@ def test_set_values_with_good_size_1():
     new_values = np.array([999])
     cpacs[name_var] = new_values
 
-    new_text = cpacs._dict_elements[name_var].text
+    new_text = cpacs._CPACSMapping__dict_elements[name_var].text
 
     assert new_text == "999"
 
@@ -132,3 +132,21 @@ def test_get_dict_with_values():
 
     assert res_d["lower_naca"] == pytest.approx(np.array([0.15, 0.1, 0.001]))
     assert res_d["upper_naca"] == pytest.approx(np.array([0.2]))
+
+
+def test_keys():
+    """Test that keys are correctly returned"""
+    elm_up = get_xml_element("./vehicles/profiles/"
+    + "wingAirfoils/wingAirfoil[@uID='NACA_CST']/cst2D/upperB")
+    elm_low = get_xml_element("./vehicles/profiles/"
+    + "wingAirfoils/wingAirfoil[@uID='NACA_CST']/cst2D/lowerB")
+
+    cpacs = CPACSMapping()
+    name_var_l = "lower_naca"
+    cpacs.add_xml_element(name_var_l, elm_low)
+    name_var_u = "upper_naca"
+    cpacs.add_xml_element(name_var_u, elm_up)
+
+    keys = cpacs.keys()
+
+    assert keys == ["lower_naca", "upper_naca"]
